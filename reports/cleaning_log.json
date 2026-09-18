@@ -1,0 +1,16 @@
+{
+  "bengaluru": {
+    "raw_rows": 13320,
+    "after_dedup": 12791,
+    "raw_localities": 1271,
+    "standard_localities": 1257,
+    "low_confidence_matches_flagged": 139,
+    "quality_flag_counts": {
+      "Valid": 12587,
+      "Suspicious": 155,
+      "Invalid": 49
+    }
+  },
+  "hyderabad_rows": 1998,
+  "chennai_rows": 4307
+}

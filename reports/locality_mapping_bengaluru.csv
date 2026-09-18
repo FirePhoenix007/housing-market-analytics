@@ -1,0 +1,1411 @@
+raw_locality_normalized,standard_locality_normalized,standard_locality_display,method,confidence,n_listings,flag_for_manual_review
+1st block koramangala,1a block koramangala,1A Block Koramangala,fuzzy_suggestion_NOT_applied,92.7,10,True
+1st block hbr layout,1st block bel layout,1st Block BEL Layout,fuzzy_suggestion_NOT_applied,90.0,3,True
+1st block hrbr layout,1st block hbr layout,1st Block HBR Layout,fuzzy_suggestion_NOT_applied,97.6,8,True
+2nd block hrbr layout,2nd block hbr layout,2nd Block Hbr Layout,fuzzy_suggestion_NOT_applied,97.6,7,True
+2nd block bel layout,2nd block hbr layout,2nd Block Hbr Layout,fuzzy_suggestion_NOT_applied,90.0,2,True
+3rd block hrbr layout,3rd block hbr layout,3rd Block HBR Layout,fuzzy_suggestion_NOT_applied,97.6,7,True
+4th t block jayanagar,4th block jayanagar,4th Block Jayanagar,fuzzy_suggestion_NOT_applied,95.0,7,True
+narayanapura,a narayanapura,A Narayanapura,fuzzy_suggestion_NOT_applied,92.3,10,True
+b narayanapura,a narayanapura,A Narayanapura,fuzzy_suggestion_NOT_applied,92.9,9,True
+ags layout,agb layout,AGB Layout,fuzzy_suggestion_NOT_applied,90.0,7,True
+ags layout,ams layout,AMS Layout,fuzzy_suggestion_NOT_applied,90.0,7,True
+avalahalli,aavalahalli,Aavalahalli,fuzzy_suggestion_NOT_applied,95.2,5,True
+kadugodi,adugodi,Adugodi,fuzzy_suggestion_NOT_applied,93.3,40,True
+kashi nagar,akash nagar,Akash Nagar,fuzzy_suggestion_NOT_applied,90.9,3,True
+prakash nagar,akash nagar,Akash Nagar,fuzzy_suggestion_NOT_applied,91.7,1,True
+akshayanagara east,akshayanagara west,Akshayanagara West,fuzzy_suggestion_NOT_applied,94.4,8,True
+akshaya nagar,akshya nagar,Akshya Nagar,fuzzy_suggestion_NOT_applied,96.0,61,True
+ambalipura,amblipura,Amblipura,fuzzy_suggestion_NOT_applied,94.7,26,True
+anandapura,anantapura,Anantapura,fuzzy_suggestion_NOT_applied,90.0,27,True
+anjanapura,anantapura,Anantapura,fuzzy_suggestion_NOT_applied,90.0,16,True
+anantapura,anantapuram,Anantapuram,fuzzy_suggestion_NOT_applied,95.2,3,True
+anandapura,anjanapura,Anjanapura,fuzzy_suggestion_NOT_applied,90.0,27,True
+anjappa layout,ankappa layout,Ankappa Layout,fuzzy_suggestion_NOT_applied,92.9,3,True
+abbaiah reddy layout,annaiah reddy layout,Annaiah Reddy Layout,fuzzy_suggestion_NOT_applied,90.0,6,True
+channasandra,b channasandra,B Channasandra,fuzzy_suggestion_NOT_applied,92.3,38,True
+narayanapura,b narayanapura,B Narayanapura,fuzzy_suggestion_NOT_applied,92.3,10,True
+begur road,bagur road,BAGUR ROAD,fuzzy_suggestion_NOT_applied,90.0,74,True
+bcc layout,bcmc layout,BCMC Layout,fuzzy_suggestion_NOT_applied,95.2,4,True
+beml layout,bel layout,BEL Layout,fuzzy_suggestion_NOT_applied,95.2,10,True
+bhel layout,bel layout,BEL Layout,fuzzy_suggestion_NOT_applied,95.2,3,True
+beml layout,bhel layout,BHEL Layout,fuzzy_suggestion_NOT_applied,90.9,10,True
+banaswadi,banasawadi,"Banasawadi,",fuzzy_suggestion_NOT_applied,94.7,18,True
+basnashankari 6th stage,banashankari 6th stage,Banashankari 6th Stage,fuzzy_suggestion_NOT_applied,97.8,1,True
+banashankari stage iii,banashankari stage i,Banashankari Stage I,fuzzy_suggestion_NOT_applied,95.2,25,True
+banashankari stage ii,banashankari stage i,Banashankari Stage I,fuzzy_suggestion_NOT_applied,97.6,16,True
+banashankari stage vi,banashankari stage i,Banashankari Stage I,fuzzy_suggestion_NOT_applied,97.6,16,True
+banashankari stage v,banashankari stage i,Banashankari Stage I,fuzzy_suggestion_NOT_applied,95.0,12,True
+banashankari stage iii,banashankari stage ii,Banashankari Stage II,fuzzy_suggestion_NOT_applied,97.7,25,True
+banashankari stage iii,banashankari stage v,Banashankari Stage V,fuzzy_suggestion_NOT_applied,90.5,25,True
+banashankari stage ii,banashankari stage v,Banashankari Stage V,fuzzy_suggestion_NOT_applied,92.7,16,True
+banashankari stage vi,banashankari stage v,Banashankari Stage V,fuzzy_suggestion_NOT_applied,97.6,16,True
+banashankari stage iii,banashankari stage vi,Banashankari Stage VI,fuzzy_suggestion_NOT_applied,93.0,25,True
+banashankari stage ii,banashankari stage vi,Banashankari Stage VI,fuzzy_suggestion_NOT_applied,95.2,16,True
+basavanagara,basava nagar,Basava Nagar,fuzzy_suggestion_NOT_applied,91.7,5,True
+basaveshwara nagar,basaveswarnagar,Basaveswarnagar,fuzzy_suggestion_NOT_applied,90.9,21,True
+belathur,belatur,Belatur,fuzzy_suggestion_NOT_applied,93.3,5,True
+bharathi nagar,bharat nagar,Bharat Nagar,fuzzy_suggestion_NOT_applied,92.3,12,True
+bharathnagar,bharat nagar,Bharat Nagar,fuzzy_suggestion_NOT_applied,91.7,1,True
+bharathi nagar,bharathnagar,Bharathnagar,fuzzy_suggestion_NOT_applied,92.3,12,True
+battarahalli,bhattarahalli,Bhattarahalli,fuzzy_suggestion_NOT_applied,96.0,24,True
+bhuvaneshwari nagar,bhuvaneswari nagar,Bhuvaneswari Nagar,fuzzy_suggestion_NOT_applied,97.3,6,True
+bommanahalli,bommenahalli,Bommenahalli,fuzzy_suggestion_NOT_applied,91.7,35,True
+jcr layout,cr layout,CR Layout,fuzzy_suggestion_NOT_applied,94.7,4,True
+chokkanahalli,chikkanahalli,Chikkanahalli,fuzzy_suggestion_NOT_applied,92.3,2,True
+chikkalasandra,chikkasandra,Chikkasandra,fuzzy_suggestion_NOT_applied,92.3,29,True
+chokkanahalli,chokkahalli,Chokkahalli,fuzzy_suggestion_NOT_applied,91.7,2,True
+chikkasandra,chokkasandra,Chokkasandra,fuzzy_suggestion_NOT_applied,91.7,4,True
+dodda nekkundi,doddanekundi,Doddanekundi,fuzzy_suggestion_NOT_applied,92.3,29,True
+bommasandra,dommasandra,Dommasandra,fuzzy_suggestion_NOT_applied,90.9,37,True
+dwarka nagar,dwaraka nagar,Dwaraka Nagar,fuzzy_suggestion_NOT_applied,96.0,2,True
+electronics city phase 1,electronic city phase 1,"Electronic city Phase 1,",fuzzy_suggestion_NOT_applied,97.9,88,True
+frazer town,fraser town,Fraser town,fuzzy_suggestion_NOT_applied,90.9,36,True
+manganahalli,ganganahalli,Ganganahalli,fuzzy_suggestion_NOT_applied,91.7,1,True
+gokula extension,gokaula extension,Gokaula Extension,fuzzy_suggestion_NOT_applied,97.0,3,True
+venugopal reddy layout,gopal reddy layout,Gopal Reddy Layout,fuzzy_suggestion_NOT_applied,90.0,3,True
+govindpura,govindapura,Govindapura,fuzzy_suggestion_NOT_applied,95.2,5,True
+hsr layout,hbr layout,HBR Layout,fuzzy_suggestion_NOT_applied,90.0,41,True
+hosur main road,hosur rmain road,HOSUR RMAIN ROAD,fuzzy_suggestion_NOT_applied,96.8,3,True
+hbr layout,hrbr layout,HRBR Layout,fuzzy_suggestion_NOT_applied,95.2,20,True
+cholanayakanahalli,halanayakanahalli,Halanayakanahalli,fuzzy_suggestion_NOT_applied,91.4,7,True
+hanumanth nagar,hanuman nagar,Hanuman Nagar,fuzzy_suggestion_NOT_applied,92.9,4,True
+hanumanth nagar,hanumantha nagar,Hanumantha Nagar,fuzzy_suggestion_NOT_applied,96.8,4,True
+puttanahalli,huttanahalli,Huttanahalli,fuzzy_suggestion_NOT_applied,91.7,4,True
+indira nagar,indra nagar,Indra Nagar,fuzzy_suggestion_NOT_applied,95.7,43,True
+lakkasandra,jakkasandra,Jakkasandra,fuzzy_suggestion_NOT_applied,90.9,2,True
+jalahalli east,jalahalli west,Jalahalli West,fuzzy_suggestion_NOT_applied,92.9,12,True
+vijayanagar,jayanagar,Jayanagar,fuzzy_suggestion_NOT_applied,90.0,42,True
+rpc layout,kpc layout,KPC Layout,fuzzy_suggestion_NOT_applied,90.0,3,True
+kanakapura main road,kanakapur main road,Kanakapur main road,fuzzy_suggestion_NOT_applied,97.4,3,True
+kanakpura road,kanakapura rod,Kanakapura  Rod,fuzzy_suggestion_NOT_applied,92.9,249,True
+kanakapura road,kanakapura rod,Kanakapura  Rod,fuzzy_suggestion_NOT_applied,96.6,3,True
+kathriguppe,kathreguppe,Kathreguppe,fuzzy_suggestion_NOT_applied,90.9,19,True
+kenchenahalli,kenchenhalli,Kenchenhalli,fuzzy_suggestion_NOT_applied,96.0,16,True
+kodihalli,kodigehalli,Kodigehalli,fuzzy_suggestion_NOT_applied,90.0,15,True
+kodigehaali,kodigehalli,Kodigehalli,fuzzy_suggestion_NOT_applied,90.9,13,True
+kothanur,kothannur,Kothannur,fuzzy_suggestion_NOT_applied,94.1,64,True
+kumbena agrahara,kumbhena agrahara,Kumbhena Agrahara,fuzzy_suggestion_NOT_applied,97.0,3,True
+jakkasandra extension,lakkasandra extension,Lakkasandra Extension,fuzzy_suggestion_NOT_applied,95.2,5,True
+rr layout,mrcr layout,MRCR Layout,fuzzy_suggestion_NOT_applied,90.0,2,True
+cr layout,mrcr layout,MRCR Layout,fuzzy_suggestion_NOT_applied,90.0,1,True
+mallasandra,mailasandra,Mailasandra,fuzzy_suggestion_NOT_applied,90.9,16,True
+manorayana palya,manonarayanapalya,Manonarayanapalya,fuzzy_suggestion_NOT_applied,90.9,3,True
+margondanahalli,maragondanahalli,Maragondanahalli,fuzzy_suggestion_NOT_applied,96.8,25,True
+ramagondanahalli,margondanahalli,Margondanahalli,fuzzy_suggestion_NOT_applied,90.3,47,True
+marathi layout,maruthi layout,Maruthi Layout,fuzzy_suggestion_NOT_applied,92.9,1,True
+nri layout,n r layout,N R Layout,fuzzy_suggestion_NOT_applied,90.0,14,True
+ngr layout,n r layout,N R Layout,fuzzy_suggestion_NOT_applied,90.0,13,True
+nri layout,ngr layout,NGR Layout,fuzzy_suggestion_NOT_applied,90.0,14,True
+nri layout,nti layout,NTI Layout,fuzzy_suggestion_NOT_applied,90.0,14,True
+iti layout,nti layout,NTI Layout,fuzzy_suggestion_NOT_applied,90.0,6,True
+anjappa layout,nanjappa layout,Nanjappa Layout,fuzzy_suggestion_NOT_applied,96.6,3,True
+nelamangala,neelamangala,Neelamangala,fuzzy_suggestion_NOT_applied,95.7,8,True
+pulkeshi nagar,pulikeshi nagar,Pulikeshi Nagar,fuzzy_suggestion_NOT_applied,96.6,2,True
+nri layout,rbi layout,RBI Layout,fuzzy_suggestion_NOT_applied,90.0,14,True
+hrbr layout,rr layout,RR Layout,fuzzy_suggestion_NOT_applied,90.0,19,True
+raja rajeshwari nagar,raja rajashweri nagar,Raja Rajashweri Nagar,fuzzy_suggestion_NOT_applied,90.5,159,True
+raja rajeshwari nagar,rajarajesheari nagar,Rajarajesheari nagar,fuzzy_suggestion_NOT_applied,92.7,159,True
+rajarajeshwari nagara,rajarajesheari nagar,Rajarajesheari nagar,fuzzy_suggestion_NOT_applied,92.7,3,True
+raja rajeshwari nagar,rajarajeshwari nagara,Rajarajeshwari Nagara,fuzzy_suggestion_NOT_applied,95.2,159,True
+hsr layout,s r layout,S R Layout,fuzzy_suggestion_NOT_applied,90.0,41,True
+n r layout,s r layout,S R Layout,fuzzy_suggestion_NOT_applied,90.0,1,True
+shanti nagar,shanthinagar,SHANTHINAGAR,fuzzy_suggestion_NOT_applied,91.7,8,True
+sapthagiri layout,saptagiri layout,Saptagiri Layout,fuzzy_suggestion_NOT_applied,97.0,1,True
+sri sai layout,shirdi sai layout,Shirdi Sai Layout,fuzzy_suggestion_NOT_applied,90.3,2,True
+srirampura,srirampuram,Srirampuram,fuzzy_suggestion_NOT_applied,95.2,6,True
+subash nagar,subhash nagar,Subhash Nagar,fuzzy_suggestion_NOT_applied,96.0,2,True
+sunder ram shetty nagar,sundar ram shetty nagar,Sundar Ram Shetty Nagar,fuzzy_suggestion_NOT_applied,95.7,2,True
+dasarahalli,t dasarahalli,T Dasarahalli,fuzzy_suggestion_NOT_applied,91.7,17,True
+tavarekere,thavarekere,Thavarekere,fuzzy_suggestion_NOT_applied,95.2,4,True
+thubarahalli,thurahalli,Thurahalli,fuzzy_suggestion_NOT_applied,90.9,22,True
+thyagaraja nagar,thyagraj nagar,Thyagraj Nagar,fuzzy_suggestion_NOT_applied,93.3,11,True
+thigalarapalya,tigalarpalya,Tigalarpalya,fuzzy_suggestion_NOT_applied,92.3,48,True
+udaya nagar,uday nagar,Uday Nagar,fuzzy_suggestion_NOT_applied,95.2,4,True
+vasanthapura,vasanthpura,Vasanthpura,fuzzy_suggestion_NOT_applied,95.7,10,True
+vasantha vallabha nagar,vasatha vallbha nagar,Vasatha Vallbha Nagar,fuzzy_suggestion_NOT_applied,95.5,5,True
+varsova layout,versova layout,Versova Layout,fuzzy_suggestion_NOT_applied,92.9,4,True
+vijayanagar,vijay nagar,Vijay Nagar,fuzzy_suggestion_NOT_applied,90.9,42,True
+vijaya bank layout,vijayabank bank layout,Vijayabank bank layout,fuzzy_suggestion_NOT_applied,90.0,7,True
+vinayaka nagar,vinayak nagar,Vinayak Nagar,fuzzy_suggestion_NOT_applied,96.3,4,True
+whitefield,whietfield,"Whietfield,",fuzzy_suggestion_NOT_applied,90.0,526,True
+banashankari stage iii,banashankari stage iii sa,banashankari stage iii sa,fuzzy_suggestion_NOT_applied,93.6,25,True
+banashankari stage ii,banashankari stage iii sa,banashankari stage iii sa,fuzzy_suggestion_NOT_applied,91.3,16,True
+basaveshwara nagar,basaveshwarnagar,basaveshwarnagar,fuzzy_suggestion_NOT_applied,94.1,21,True
+basaveswarnagar,basaveshwarnagar,basaveshwarnagar,fuzzy_suggestion_NOT_applied,96.8,1,True
+yelachenahalli,elachenahalli,elachenahalli,fuzzy_suggestion_NOT_applied,96.3,20,True
+kanakpura road,kanakapura road,kanakapura road,fuzzy_suggestion_NOT_applied,96.6,249,True
+manayata tech park,manyata tech park,manyata tech park,fuzzy_suggestion_NOT_applied,97.1,8,True
+poorna pragna layout,poornaprajna layout,poornaprajna layout,fuzzy_suggestion_NOT_applied,92.3,13,True
+whitefield,whitefiled,whitefiled,fuzzy_suggestion_NOT_applied,90.0,526,True
+1 annasandrapalya,1 annasandrapalya,1 Annasandrapalya,unique,100.0,1,False
+1 giri nagar,1 giri nagar,1 Giri Nagar,unique,100.0,1,False
+1 immadihalli,1 immadihalli,1 Immadihalli,unique,100.0,1,False
+1 ramamurthy nagar,1 ramamurthy nagar,1 Ramamurthy Nagar,unique,100.0,1,False
+12th cross srinivas nagar banshankari 3rd stage,12th cross srinivas nagar banshankari 3rd stage,12th cross srinivas nagar banshankari 3rd stage,unique,100.0,1,False
+1a block koramangala,1a block koramangala,1A Block Koramangala,unique,100.0,1,False
+1channasandra,1channasandra,1Channasandra,unique,100.0,1,False
+1hanuman nagar,1hanuman nagar,1Hanuman Nagar,unique,100.0,1,False
+1hoysalanagar,1hoysalanagar,1Hoysalanagar,unique,100.0,1,False
+1kasavanhalli,1kasavanhalli,1Kasavanhalli,unique,100.0,1,False
+1st block bel layout,1st block bel layout,1st Block BEL Layout,unique,100.0,2,False
+1st block hbr layout,1st block hbr layout,1st Block HBR Layout,unique,100.0,3,False
+1st block hrbr layout,1st block hrbr layout,1st Block HRBR Layout,unique,100.0,8,False
+1st block jayanagar,1st block jayanagar,1st Block Jayanagar,unique,100.0,14,False
+1st block koramangala,1st block koramangala,1st Block Koramangala,unique,100.0,10,False
+1st phase jp nagar,1st phase jp nagar,1st Phase JP Nagar,unique,100.0,25,False
+1st stage domlur,1st stage domlur,1st Stage Domlur,unique,100.0,1,False
+1st stage indira nagar,1st stage indira nagar,1st Stage Indira Nagar,unique,100.0,5,False
+1st stage radha krishna layout,1st stage radha krishna layout,1st Stage Radha Krishna Layout,unique,100.0,1,False
+2 bedroom furnished farm house in kolar road,2 bedroom furnished farm house in kolar road,2 Bedroom Furnished Farm House in Kolar Road,unique,100.0,1,False
+2electronic city phase ii,2electronic city phase ii,2Electronic City Phase II,unique,100.0,1,False
+2nd block bel layout,2nd block bel layout,2nd Block Bel Layout,unique,100.0,2,False
+2nd block hbr layout,2nd block hbr layout,2nd Block Hbr Layout,unique,100.0,1,False
+2nd block hrbr layout,2nd block hrbr layout,2nd Block Hrbr Layout,unique,100.0,7,False
+2nd block jayanagar,2nd block jayanagar,2nd Block Jayanagar,unique,100.0,4,False
+2nd block koramangala,2nd block koramangala,2nd Block Koramangala,unique,100.0,2,False
+2nd phase jp nagar,2nd phase jp nagar,2nd Phase JP Nagar,unique,100.0,9,False
+2nd phase judicial layout,2nd phase judicial layout,2nd Phase Judicial Layout,unique,100.0,8,False
+2nd stage arekere mico layout,2nd stage arekere mico layout,2nd Stage Arekere Mico Layout,unique,100.0,3,False
+2nd stage nagarbhavi,2nd stage nagarbhavi,2nd Stage Nagarbhavi,unique,100.0,20,False
+2nd phase jp nagar jp nagar,2nd phase jp nagar jp nagar,"2nd phase jp nagar, jp nagar",unique,100.0,1,False
+3rd block banashankari,3rd block banashankari,3rd Block Banashankari,unique,100.0,5,False
+3rd block hbr layout,3rd block hbr layout,3rd Block HBR Layout,unique,100.0,1,False
+3rd block hrbr layout,3rd block hrbr layout,3rd Block Hrbr Layout,unique,100.0,7,False
+3rd block jayanagar,3rd block jayanagar,3rd Block Jayanagar,unique,100.0,3,False
+3rd block koramangala,3rd block koramangala,3rd Block Koramangala,unique,100.0,2,False
+3rd phase iti layout,3rd phase iti layout,3rd Phase Iti Layout,unique,100.0,1,False
+3rd phase jp nagar,3rd phase jp nagar,3rd Phase JP Nagar,unique,100.0,3,False
+3rd stage raja rajeshwari nagar,3rd stage raja rajeshwari nagar,3rd Stage Raja Rajeshwari Nagar,unique,100.0,1,False
+4 bedroom farm house in bagalur,4 bedroom farm house in bagalur,4 Bedroom Farm House in Bagalur,unique,100.0,1,False
+4th block hbr layout,4th block hbr layout,4th Block HBR Layout,unique,100.0,1,False
+4th block jayanagar,4th block jayanagar,4th Block Jayanagar,unique,100.0,4,False
+4th block koramangala,4th block koramangala,4th Block Koramangala,unique,100.0,9,False
+4th phase jp nagar,4th phase jp nagar,4th Phase JP Nagar,unique,100.0,4,False
+4th t block jayanagar,4th t block jayanagar,4th T block Jayanagar,unique,100.0,7,False
+5 bedroom farm house in lakshmipura,5 bedroom farm house in lakshmipura,5 Bedroom Farm House in Lakshmipura,unique,100.0,1,False
+5th block hbr layout,5th block hbr layout,5th Block Hbr Layout,unique,100.0,12,False
+5th block jayanagar,5th block jayanagar,5th Block Jayanagar,unique,100.0,3,False
+5th phase jp nagar,5th phase jp nagar,5th Phase JP Nagar,unique,100.0,37,False
+5th stage beml layout,5th stage beml layout,5th Stage BEML Layout,unique,100.0,2,False
+5th block koramangala,5th block koramangala,5th block Koramangala,unique,100.0,1,False
+6th block jayanagar,6th block jayanagar,6th Block Jayanagar,unique,100.0,1,False
+6th block rajaji nagar,6th block rajaji nagar,6th Block Rajaji Nagar,unique,100.0,1,False
+6th phase jp nagar,6th phase jp nagar,6th Phase JP Nagar,unique,100.0,23,False
+6th block koramangala,6th block koramangala,6th block Koramangala,unique,100.0,5,False
+6th block banashankari 3rd stage 100 feet orr,6th block banashankari 3rd stage 100 feet orr,"6th block banashankari 3rd stage, 100 feet ORR",unique,100.0,1,False
+7th block jayanagar,7th block jayanagar,7th Block Jayanagar,unique,100.0,5,False
+7th block koramangala,7th block koramangala,7th Block Koramangala,unique,100.0,1,False
+7th phase jp nagar,7th phase jp nagar,7th Phase JP Nagar,unique,100.0,135,False
+8th block jayanagar,8th block jayanagar,8th Block Jayanagar,unique,100.0,4,False
+8th phase jp nagar,8th phase jp nagar,8th Phase JP Nagar,unique,100.0,56,False
+8th block koramangala,8th block koramangala,8th block Koramangala,unique,100.0,7,False
+9th block jayanagar,9th block jayanagar,9th Block Jayanagar,unique,100.0,5,False
+9th phase jp nagar,9th phase jp nagar,9th Phase JP Nagar,unique,100.0,43,False
+a narayanapura,a narayanapura,A Narayanapura,unique,100.0,5,False
+aecs layout a block singasandra,aecs layout a block singasandra,AECS LAYOUT A-BLOCK Singasandra,unique,100.0,1,False
+aecs layout,aecs layout,AECS Layout,unique,100.0,12,False
+agb layout,agb layout,AGB Layout,unique,100.0,1,False
+ags layout,ags layout,AGS Layout,unique,100.0,7,False
+ams layout,ams layout,AMS Layout,unique,100.0,4,False
+aavalahalli,aavalahalli,Aavalahalli,unique,100.0,1,False
+abbaiah reddy layout,abbaiah reddy layout,Abbaiah Reddy Layout,unique,100.0,6,False
+abbigere,abbigere,Abbigere,unique,100.0,22,False
+abshot layout,abshot layout,Abshot Layout,unique,100.0,1,False
+achins road,achins road,Achins Road,unique,100.0,1,False
+adarsh nagar,adarsh nagar,Adarsh Nagar,unique,100.0,1,False
+addischetan layout,addischetan layout,Addischetan Layout,unique,100.0,1,False
+adityanagar,adityanagar,Adityanagar,unique,100.0,3,False
+adugodi,adugodi,Adugodi,unique,100.0,1,False
+agara village,agara village,Agara Village,unique,100.0,1,False
+agrahara dasarahalli,agrahara dasarahalli,Agrahara Dasarahalli,unique,100.0,3,False
+air view colony,air view colony,Air View Colony,unique,100.0,1,False
+aishwarya crystal layout,aishwarya crystal layout,Aishwarya Crystal Layout,unique,100.0,2,False
+akash nagar,akash nagar,Akash Nagar,unique,100.0,1,False
+akshaya nagar,akshaya nagar,Akshaya Nagar,unique,100.0,61,False
+akshaya vana,akshaya vana,Akshaya Vana,unique,100.0,8,False
+akshayanagara east,akshayanagara east,Akshayanagara East,unique,100.0,8,False
+akshayanagara west,akshayanagara west,Akshayanagara West,unique,100.0,2,False
+akshya nagar,akshya nagar,Akshya Nagar,unique,100.0,5,False
+alfa garden layout,alfa garden layout,Alfa Garden Layout,unique,100.0,4,False
+allalasandra,allalasandra,Allalasandra,unique,100.0,1,False
+alur,alur,Alur,unique,100.0,3,False
+amam enclave layout,amam enclave layout,Amam Enclave Layout,unique,100.0,2,False
+amarjyothi colony,amarjyothi colony,Amarjyothi Colony,unique,100.0,2,False
+ambalipura,ambalipura,Ambalipura,unique,100.0,26,False
+ambedkar colony,ambedkar colony,Ambedkar Colony,unique,100.0,7,False
+ambedkar nagar,ambedkar nagar,Ambedkar Nagar,unique,100.0,29,False
+amblipura,amblipura,Amblipura,unique,100.0,6,False
+amco colony,amco colony,Amco Colony,unique,100.0,1,False
+amrita nagar,amrita nagar,Amrita Nagar,unique,100.0,1,False
+amruthahalli,amruthahalli,Amruthahalli,unique,100.0,24,False
+amruthnagar,amruthnagar,Amruthnagar,unique,100.0,5,False
+anand nagar,anand nagar,Anand Nagar,unique,100.0,8,False
+anandapura,anandapura,Anandapura,unique,100.0,27,False
+anantapura,anantapura,Anantapura,unique,100.0,3,False
+anantapuram,anantapuram,Anantapuram,unique,100.0,1,False
+ananth nagar,ananth nagar,Ananth Nagar,unique,100.0,29,False
+ananthanagar phase 1 electronic city phase 2,ananthanagar phase 1 electronic city phase 2,"Ananthanagar Phase 1,Electronic City , phase 2",unique,100.0,1,False
+ananthapura t c palaya main road,ananthapura t c palaya main road,"Ananthapura, T C palaya Main Road",unique,100.0,1,False
+anathanagar,anathanagar,Anathanagar,unique,100.0,1,False
+andrahalli,andrahalli,Andrahalli,unique,100.0,2,False
+anekal,anekal,Anekal,unique,100.0,31,False
+anekal hosur road,anekal hosur road,Anekal - Hosur Road,unique,100.0,1,False
+anjana nagar,anjana nagar,Anjana Nagar,unique,100.0,2,False
+anjanapura,anjanapura,Anjanapura,unique,100.0,16,False
+anjappa layout,anjappa layout,Anjappa Layout,unique,100.0,3,False
+ankappa layout,ankappa layout,Ankappa Layout,unique,100.0,3,False
+annaiah reddy layout,annaiah reddy layout,Annaiah Reddy Layout,unique,100.0,2,False
+annapoorneshwari layout jp nagar 7th phase,annapoorneshwari layout jp nagar 7th phase,"Annapoorneshwari Layout, JP nagar 7th phase",unique,100.0,1,False
+annapurneshwari nagar,annapurneshwari nagar,Annapurneshwari Nagar,unique,100.0,2,False
+annasandrapalya,annasandrapalya,Annasandrapalya,unique,100.0,1,False
+anugrah layout,anugrah layout,Anugrah Layout,unique,100.0,2,False
+anwar layout,anwar layout,Anwar Layout,unique,100.0,2,False
+arasanakunte,arasanakunte,Arasanakunte,unique,100.0,1,False
+ardendale,ardendale,Ardendale,unique,100.0,23,False
+arehalli,arehalli,Arehalli,unique,100.0,3,False
+arekempanahalli,arekempanahalli,Arekempanahalli,unique,100.0,1,False
+arekere,arekere,Arekere,unique,100.0,17,False
+arishinakunte,arishinakunte,Arishinakunte,unique,100.0,3,False
+ashirvad colony,ashirvad colony,Ashirvad Colony,unique,100.0,6,False
+ashok nagar,ashok nagar,Ashok Nagar,unique,100.0,2,False
+ashraya layout,ashraya layout,Ashraya Layout,unique,100.0,1,False
+ashwath nagar,ashwath nagar,Ashwath Nagar,unique,100.0,7,False
+ashwathnagar,ashwath nagar,Ashwath Nagar,whitespace_normalization,100.0,6,False
+ashwini layout,ashwini layout,Ashwini layout,unique,100.0,3,False
+asthagrama layout,asthagrama layout,Asthagrama Layout,unique,100.0,1,False
+atmananda colony,atmananda colony,Atmananda Colony,unique,100.0,3,False
+attibele,attibele,Attibele,unique,100.0,41,False
+attiguppe,attiguppe,Attiguppe,unique,100.0,1,False
+attur layout,attur layout,Attur Layout,unique,100.0,5,False
+austin town,austin town,Austin Town,unique,100.0,7,False
+avalahalli,avalahalli,Avalahalli,unique,100.0,5,False
+ayappa nagar,ayappa nagar,Ayappa Nagar,unique,100.0,3,False
+b channasandra,b channasandra,B Channasandra,unique,100.0,3,False
+b k nagar,b k nagar,B K Nagar,unique,100.0,1,False
+b narayanapura,b narayanapura,B Narayanapura,unique,100.0,9,False
+b y raveshwara nagar,b y raveshwara nagar,B Y Raveshwara Nagar,unique,100.0,1,False
+bagur,bagur,BAGUR,unique,100.0,1,False
+bagur road,bagur road,BAGUR ROAD,unique,100.0,1,False
+bcc layout,bcc layout,BCC Layout,unique,100.0,4,False
+bcmc layout,bcmc layout,BCMC Layout,unique,100.0,2,False
+bds layout,bds layout,BDS Layout,unique,100.0,1,False
+bel layout,bel layout,BEL Layout,unique,100.0,1,False
+bel road,bel road,BEL Road,unique,100.0,4,False
+beml layout,beml layout,BEML Layout,unique,100.0,10,False
+beml layout 5th stage,beml layout 5th stage,BEML Layout 5th stage,unique,100.0,2,False
+bhel layout,bhel layout,BHEL Layout,unique,100.0,3,False
+bsm extension,bsm extension,BSM Extension,unique,100.0,4,False
+btm 1st stage,btm 1st stage,BTM 1st Stage,unique,100.0,10,False
+btm 2nd stage,btm 2nd stage,BTM 2nd Stage,unique,100.0,29,False
+btm 4th stage,btm 4th stage,BTM 4th Stage,unique,100.0,3,False
+btm layout,btm layout,BTM Layout,unique,100.0,17,False
+btm layout 1stage 9th main,btm layout 1stage 9th main,BTM Layout 1stage 9th Main,unique,100.0,1,False
+btm layout 2nd stage 1st phase,btm layout 2nd stage 1st phase,BTM Layout 2nd Stage 1st Phase,unique,100.0,1,False
+baba nagar,baba nagar,Baba Nagar,unique,100.0,3,False
+babusapalaya,babusapalaya,Babusapalaya,unique,100.0,25,False
+badavala nagar,badavala nagar,Badavala Nagar,unique,100.0,6,False
+badrappa layout,badrappa layout,Badrappa Layout,unique,100.0,1,False
+bagalakunte,bagalakunte,Bagalakunte,unique,100.0,6,False
+bagalur,bagalur,Bagalur,unique,100.0,5,False
+bagalur main road,bagalur main road,Bagalur Main Road,unique,100.0,4,False
+bahubali nagar,bahubali nagar,Bahubali Nagar,unique,100.0,1,False
+balagere,balagere,Balagere,unique,100.0,44,False
+balaji gardens layout,balaji gardens layout,Balaji Gardens Layout,unique,100.0,2,False
+balepet,balepet,Balepet,unique,100.0,1,False
+banagiri nagar,banagiri nagar,Banagiri Nagar,unique,100.0,9,False
+banagirinagar,banagiri nagar,Banagiri Nagar,whitespace_normalization,100.0,1,False
+banasawadi,banasawadi,"Banasawadi,",unique,100.0,1,False
+banashankari,banashankari,Banashankari,unique,100.0,72,False
+banashankari 2nd stage,banashankari 2nd stage,Banashankari 2nd Stage,unique,100.0,1,False
+banashankari 2 nd stage,banashankari 2nd stage,Banashankari 2nd Stage,whitespace_normalization,100.0,1,False
+banashankari 3rd stage vivekanandanagar,banashankari 3rd stage vivekanandanagar,"Banashankari 3rd stage, Vivekanandanagar",unique,100.0,1,False
+banashankari 6th stage,banashankari 6th stage,Banashankari 6th Stage,unique,100.0,1,False
+banashankari 6th stage subramanyapura,banashankari 6th stage subramanyapura,"Banashankari 6th Stage ,Subramanyapura",unique,100.0,1,False
+banashankari 6th stage 2nd block,banashankari 6th stage 2nd block,"Banashankari 6th stage , 2nd block",unique,100.0,1,False
+banashankari stage i,banashankari stage i,Banashankari Stage I,unique,100.0,1,False
+banashankari stage ii,banashankari stage ii,Banashankari Stage II,unique,100.0,16,False
+banashankari stage iii,banashankari stage iii,Banashankari Stage III,unique,100.0,25,False
+banashankari stage v,banashankari stage v,Banashankari Stage V,unique,100.0,12,False
+banashankari stage vi,banashankari stage vi,Banashankari Stage VI,unique,100.0,16,False
+banashankari stage 2,banashankari stage 2,Banashankari stage 2,unique,100.0,1,False
+banashankari3rd stage bigbazar,banashankari3rd stage bigbazar,Banashankari3rd stage bigbazar,unique,100.0,1,False
+banaswadi,banaswadi,Banaswadi,unique,100.0,18,False
+bande nallasandra,bande nallasandra,Bande Nallasandra,unique,100.0,1,False
+bandepalya,bandepalya,Bandepalya,unique,100.0,1,False
+banjara layout,banjara layout,Banjara Layout,unique,100.0,11,False
+bank avenue,bank avenue,Bank Avenue,unique,100.0,1,False
+bank of baroda colony,bank of baroda colony,Bank Of Baroda Colony,unique,100.0,7,False
+bannerghatta,bannerghatta,Bannerghatta,unique,100.0,18,False
+bannerghatta road,bannerghatta road,Bannerghatta Road,unique,100.0,149,False
+bapuji layout,bapuji layout,Bapuji Layout,unique,100.0,1,False
+bapuji nagar,bapuji nagar,Bapuji Nagar,unique,100.0,1,False
+basapura,basapura,Basapura,unique,100.0,9,False
+basava nagar,basava nagar,Basava Nagar,unique,100.0,3,False
+basavanagara,basavanagara,Basavanagara,unique,100.0,5,False
+basavanapura,basavanapura,Basavanapura,unique,100.0,8,False
+basavangudi,basavangudi,Basavangudi,unique,100.0,31,False
+basavanna nagar,basavanna nagar,Basavanna Nagar,unique,100.0,4,False
+basaveshwara nagar,basaveshwara nagar,Basaveshwara Nagar,unique,100.0,21,False
+basaveshwara nagar yelahanka,basaveshwara nagar yelahanka,Basaveshwara Nagar Yelahanka,unique,100.0,7,False
+basaveswarnagar,basaveswarnagar,Basaveswarnagar,unique,100.0,1,False
+basnashankari 6th stage,basnashankari 6th stage,"Basnashankari,6th stage,",unique,100.0,1,False
+basvasamithi layout vidyaranyapura,basvasamithi layout vidyaranyapura,Basvasamithi Layout Vidyaranyapura,unique,100.0,1,False
+battarahalli,battarahalli,Battarahalli,unique,100.0,24,False
+begur,begur,Begur,unique,100.0,16,False
+begur road,begur road,Begur Road,unique,100.0,74,False
+behind don bosco church,behind don bosco church,Behind Don Bosco Church,unique,100.0,1,False
+belathur,belathur,Belathur,unique,100.0,5,False
+belatur,belatur,Belatur,unique,100.0,3,False
+bellandur,bellandur,Bellandur,unique,100.0,94,False
+bellari road,bellari road,Bellari Road,unique,100.0,5,False
+beml layout rajarajeshwari nagar,beml layout rajarajeshwari nagar,"Beml layout, Rajarajeshwari nagar",unique,100.0,1,False
+bendiganahalli,bendiganahalli,Bendiganahalli,unique,100.0,2,False
+bennigana halli,bennigana halli,Bennigana Halli,unique,100.0,1,False
+benson town,benson town,Benson Town,unique,100.0,15,False
+bethel nagar,bethel nagar,Bethel Nagar,unique,100.0,3,False
+bettadasanapura,bettadasanapura,Bettadasanapura,unique,100.0,1,False
+bettahalsoor,bettahalsoor,Bettahalsoor,unique,100.0,3,False
+bhagyalakshmi avenue,bhagyalakshmi avenue,Bhagyalakshmi Avenue,unique,100.0,3,False
+bharat nagar,bharat nagar,Bharat Nagar,unique,100.0,1,False
+bharath housing society layout,bharath housing society layout,Bharath Housing Society Layout,unique,100.0,1,False
+bharathi nagar,bharathi nagar,Bharathi Nagar,unique,100.0,12,False
+bharathnagar,bharathnagar,Bharathnagar,unique,100.0,1,False
+bhattarahalli,bhattarahalli,Bhattarahalli,unique,100.0,1,False
+bhoganhalli,bhoganhalli,Bhoganhalli,unique,100.0,43,False
+bhoopsandra,bhoopsandra,Bhoopsandra,unique,100.0,2,False
+bhuvaneshwari nagar,bhuvaneshwari nagar,Bhuvaneshwari Nagar,unique,100.0,6,False
+bhuvaneswari nagar,bhuvaneswari nagar,Bhuvaneswari Nagar,unique,100.0,3,False
+bidadi,bidadi,Bidadi,unique,100.0,3,False
+bidere agarahara behind safal market,bidere agarahara behind safal market,"Bidere Agarahara, Behind Safal market",unique,100.0,1,False
+bidrahalli,bidrahalli,Bidrahalli,unique,100.0,2,False
+bikasipura,bikasipura,Bikasipura,unique,100.0,4,False
+bilal nagar,bilal nagar,Bilal Nagar,unique,100.0,1,False
+bileshivale,bileshivale,Bileshivale,unique,100.0,6,False
+billamaranahalli,billamaranahalli,Billamaranahalli,unique,100.0,2,False
+billapura,billapura,Billapura,unique,100.0,1,False
+billekahalli,billekahalli,Billekahalli,unique,100.0,18,False
+binnamangala,binnamangala,Binnamangala,unique,100.0,1,False
+binny mills employees colony,binny mills employees colony,Binny Mills Employees Colony,unique,100.0,1,False
+binny pete,binny pete,Binny Pete,unique,100.0,20,False
+bisuvanahalli,bisuvanahalli,Bisuvanahalli,unique,100.0,42,False
+bommanahalli,bommanahalli,Bommanahalli,unique,100.0,35,False
+bommasandra,bommasandra,Bommasandra,unique,100.0,37,False
+bommasandra industrial area,bommasandra industrial area,Bommasandra Industrial Area,unique,100.0,26,False
+bommenahalli,bommenahalli,Bommenahalli,unique,100.0,13,False
+brigade road,brigade road,Brigade Road,unique,100.0,1,False
+brindavan layout,brindavan layout,Brindavan Layout,unique,100.0,2,False
+brindavan nagar,brindavan nagar,Brindavan Nagar,unique,100.0,3,False
+brooke bond first cross,brooke bond first cross,Brooke Bond First Cross,unique,100.0,4,False
+brookefield,brookefield,Brookefield,unique,100.0,47,False
+budigere,budigere,Budigere,unique,100.0,47,False
+bull temple road,bull temple road,Bull Temple Road,unique,100.0,1,False
+byadarahalli,byadarahalli,Byadarahalli,unique,100.0,8,False
+byagadadhenahalli,byagadadhenahalli,Byagadadhenahalli,unique,100.0,5,False
+byappanahalli,byappanahalli,Byappanahalli,unique,100.0,1,False
+byatarayanapura,byatarayanapura,Byatarayanapura,unique,100.0,7,False
+byrasandra,byrasandra,Byrasandra,unique,100.0,7,False
+byrasandra extension,byrasandra extension,Byrasandra Extension,unique,100.0,1,False
+byrathi village,byrathi village,Byrathi Village,unique,100.0,6,False
+cmh road,cmh road,CMH Road,unique,100.0,1,False
+cqal layout c block,cqal layout c block,CQAL LAYOUT C BLOCK,unique,100.0,1,False
+cqal layout,cqal layout,CQAL Layout,unique,100.0,2,False
+cr layout,cr layout,CR Layout,unique,100.0,1,False
+cv raman nagar,cv raman nagar,CV Raman Nagar,unique,100.0,42,False
+cambridge road,cambridge road,Cambridge  road,unique,100.0,1,False
+cambridge layout,cambridge layout,Cambridge Layout,unique,100.0,8,False
+canara bank colony,canara bank colony,Canara Bank Colony,unique,100.0,7,False
+canara bank layout,canara bank layout,Canara Bank Layout,unique,100.0,3,False
+carmelaram,carmelaram,Carmelaram,unique,100.0,5,False
+celebrity paradise layout,celebrity paradise layout,Celebrity Paradise Layout,unique,100.0,2,False
+chaitanya ananya,chaitanya ananya,Chaitanya Ananya,unique,100.0,1,False
+challaghatta,challaghatta,Challaghatta,unique,100.0,2,False
+chambenahalli,chambenahalli,Chambenahalli,unique,100.0,1,False
+chamrajpet,chamrajpet,Chamrajpet,unique,100.0,15,False
+chamundi nagar,chamundi nagar,Chamundi Nagar,unique,100.0,2,False
+chandapura,chandapura,Chandapura,unique,100.0,82,False
+chandra layout,chandra layout,Chandra Layout,unique,100.0,8,False
+channasandra,channasandra,Channasandra,unique,100.0,38,False
+channasandra layout,channasandra layout,Channasandra Layout,unique,100.0,7,False
+chelekare,chelekare,Chelekare,unique,100.0,6,False
+chellikere,chellikere,Chellikere,unique,100.0,1,False
+chennammana kere,chennammana kere,Chennammana Kere,unique,100.0,9,False
+chennammanakere achukattu,chennammanakere achukattu,Chennammanakere Achukattu,unique,100.0,2,False
+chennappa layout,chennappa layout,Chennappa Layout,unique,100.0,4,False
+chickpet,chickpet,Chickpet,unique,100.0,1,False
+chikbasavanapura,chikbasavanapura,Chikbasavanapura,unique,100.0,1,False
+chikka banaswadi,chikka banaswadi,Chikka Banaswadi,unique,100.0,3,False
+chikka gowdanapalya,chikka gowdanapalya,Chikka Gowdanapalya.,unique,100.0,1,False
+chikka tirupathi,chikka tirupathi,Chikka Tirupathi,unique,100.0,16,False
+chikkatirupathi,chikka tirupathi,Chikka Tirupathi,whitespace_normalization,100.0,1,False
+chikkaballapur,chikkaballapur,Chikkaballapur,unique,100.0,1,False
+chikkabanavar,chikkabanavar,Chikkabanavar,unique,100.0,13,False
+chikkabettahalli,chikkabettahalli,Chikkabettahalli,unique,100.0,1,False
+chikkabidarakallu,chikkabidarakallu,Chikkabidarakallu,unique,100.0,1,False
+chikkadunnasandra,chikkadunnasandra,Chikkadunnasandra,unique,100.0,5,False
+chikkagubbi,chikkagubbi,Chikkagubbi,unique,100.0,1,False
+chikkajala,chikkajala,Chikkajala,unique,100.0,1,False
+chikkakannalli,chikkakannalli,Chikkakannalli,unique,100.0,2,False
+chikkalasandra,chikkalasandra,Chikkalasandra,unique,100.0,29,False
+chikkanahalli,chikkanahalli,Chikkanahalli,unique,100.0,1,False
+chikkasandra,chikkasandra,Chikkasandra,unique,100.0,4,False
+chikkathoguru,chikkathoguru,Chikkathoguru,unique,100.0,4,False
+chikku lakshmaiah layout,chikku lakshmaiah layout,Chikku Lakshmaiah Layout,unique,100.0,2,False
+chinnapanahalli,chinnapanahalli,Chinnapanahalli,unique,100.0,4,False
+chokkahalli,chokkahalli,Chokkahalli,unique,100.0,1,False
+chokkanahalli,chokkanahalli,Chokkanahalli,unique,100.0,2,False
+chokkasandra,chokkasandra,Chokkasandra,unique,100.0,1,False
+cholanayakanahalli,cholanayakanahalli,Cholanayakanahalli,unique,100.0,7,False
+choodasandra,choodasandra,Choodasandra,unique,100.0,21,False
+chowdeshwari layout,chowdeshwari layout,Chowdeshwari Layout,unique,100.0,1,False
+chuchangatta colony,chuchangatta colony,Chuchangatta Colony,unique,100.0,1,False
+church street,church street,Church Street,unique,100.0,2,False
+ckikkakammana halli,ckikkakammana halli,Ckikkakammana Halli,unique,100.0,1,False
+classic paradise layout,classic paradise layout,Classic Paradise Layout,unique,100.0,2,False
+cleveland town,cleveland town,Cleveland Town,unique,100.0,2,False
+coconut garden,coconut garden,Coconut Garden,unique,100.0,2,False
+coconut grove layout,coconut grove layout,Coconut Grove Layout,unique,100.0,5,False
+coffee board layout,coffee board layout,Coffee Board Layout,unique,100.0,3,False
+cooke town,cooke town,Cooke Town,unique,100.0,16,False
+cooketown,cooke town,Cooke Town,whitespace_normalization,100.0,2,False
+cottonpet,cottonpet,Cottonpet,unique,100.0,5,False
+cox town,cox town,Cox Town,unique,100.0,12,False
+craig park layout,craig park layout,Craig Park Layout,unique,100.0,1,False
+crimson layout,crimson layout,Crimson Layout,unique,100.0,3,False
+cubbon road,cubbon road,Cubbon Road,unique,100.0,1,False
+cunningham road,cunningham road,Cunningham Road,unique,100.0,13,False
+d group employees layout,d group employees layout,D Group Employees Layout,unique,100.0,3,False
+d souza layout,d souza layout,D Souza Layout,unique,100.0,1,False
+duo layout,duo layout,DUO Layout,unique,100.0,1,False
+daadys gaarden layout,daadys gaarden layout,Daadys Gaarden Layout,unique,100.0,3,False
+dairy circle,dairy circle,Dairy Circle,unique,100.0,10,False
+dasanapura,dasanapura,Dasanapura,unique,100.0,16,False
+dasappa layout,dasappa layout,Dasappa Layout,unique,100.0,3,False
+dasarahalli,dasarahalli,Dasarahalli,unique,100.0,17,False
+deepanjali nagar,deepanjali nagar,Deepanjali Nagar,unique,100.0,1,False
+defence colony,defence colony,Defence Colony,unique,100.0,7,False
+defence layout,defence layout,Defence Layout,unique,100.0,1,False
+dena bank colony,dena bank colony,Dena Bank Colony,unique,100.0,2,False
+devanahalli,devanahalli,Devanahalli,unique,100.0,45,False
+devanahalli int airport,devanahalli int airport,Devanahalli Int. Airport,unique,100.0,3,False
+devanahalli road,devanahalli road,Devanahalli Road,unique,100.0,2,False
+devara jeevanahalli,devara jeevanahalli,Devara Jeevanahalli,unique,100.0,3,False
+devarabeesana halli,devarabeesana halli,Devarabeesana Halli,unique,100.0,7,False
+devarabisanahalli,devarabisanahalli,Devarabisanahalli,unique,100.0,1,False
+devarachikkanahalli,devarachikkanahalli,Devarachikkanahalli,unique,100.0,17,False
+devasandra extension,devasandra extension,Devasandra Extension,unique,100.0,2,False
+devasthanagalu,devasthanagalu,Devasthanagalu,unique,100.0,6,False
+devi nagar,devi nagar,Devi Nagar,unique,100.0,5,False
+dhanalakshmi layout,dhanalakshmi layout,Dhanalakshmi Layout,unique,100.0,1,False
+dinnur,dinnur,Dinnur,unique,100.0,3,False
+divya unnathi layout,divya unnathi layout,Divya Unnathi Layout,unique,100.0,4,False
+doctor layout rayasandra,doctor layout rayasandra,Doctor Layout Rayasandra,unique,100.0,1,False
+doctors layout,doctors layout,Doctors Layout,unique,100.0,7,False
+dodda banaswadi,dodda banaswadi,Dodda Banaswadi,unique,100.0,6,False
+dodda kempaiah layout,dodda kempaiah layout,Dodda Kempaiah Layout,unique,100.0,2,False
+dodda nekkundi,dodda nekkundi,Dodda Nekkundi,unique,100.0,29,False
+dodda nekkundi extension,dodda nekkundi extension,Dodda Nekkundi Extension,unique,100.0,8,False
+doddaballapur,doddaballapur,Doddaballapur,unique,100.0,12,False
+doddabanahalli,doddabanahalli,Doddabanahalli,unique,100.0,5,False
+doddabele,doddabele,Doddabele,unique,100.0,1,False
+doddabidrakallu,doddabidrakallu,Doddabidrakallu,unique,100.0,2,False
+doddabommasandra,doddabommasandra,Doddabommasandra,unique,100.0,7,False
+doddagubbi,doddagubbi,Doddagubbi,unique,100.0,4,False
+doddakallasandra,doddakallasandra,Doddakallasandra,unique,100.0,11,False
+doddakammanahalli,doddakammanahalli,Doddakammanahalli,unique,100.0,7,False
+doddakannelli,doddakannelli,Doddakannelli,unique,100.0,6,False
+doddanakundi industrial area 2,doddanakundi industrial area 2,Doddanakundi Industrial Area 2,unique,100.0,6,False
+doddanakunte,doddanakunte,Doddanakunte,unique,100.0,1,False
+doddanekundi,doddanekundi,Doddanekundi,unique,100.0,6,False
+doddathoguru,doddathoguru,Doddathoguru,unique,100.0,29,False
+dodsworth layout,dodsworth layout,Dodsworth Layout,unique,100.0,10,False
+dollar scheme colony,dollar scheme colony,Dollar Scheme Colony,unique,100.0,2,False
+dollars colony,dollars colony,Dollars Colony,unique,100.0,8,False
+dollars layout,dollars layout,Dollars Layout,unique,100.0,3,False
+dominic layout,dominic layout,Dominic Layout,unique,100.0,1,False
+domlur,domlur,Domlur,unique,100.0,22,False
+domlur layout,domlur layout,Domlur Layout,unique,100.0,3,False
+dommasandra,dommasandra,Dommasandra,unique,100.0,13,False
+doopanahalli,doopanahalli,Doopanahalli,unique,100.0,5,False
+dooravani nagar,dooravani nagar,Dooravani Nagar,unique,100.0,4,False
+double road,double road,Double Road,unique,100.0,1,False
+dr shivarama karantha nagar,dr shivarama karantha nagar,Dr Shivarama Karantha Nagar,unique,100.0,2,False
+duddanahalli,duddanahalli,Duddanahalli,unique,100.0,1,False
+duvasapalya,duvasapalya,Duvasapalya,unique,100.0,1,False
+dwaraka nagar,dwaraka nagar,Dwaraka Nagar,unique,100.0,1,False
+dwarka nagar,dwarka nagar,Dwarka Nagar,unique,100.0,2,False
+ecc road whitefield,ecc road whitefield,"ECC Road, Whitefield,",unique,100.0,2,False
+epip area whitefield,epip area whitefield,"EPIP AREA, WHITEFIELD",unique,100.0,1,False
+epip zone,epip zone,EPIP Zone,unique,100.0,23,False
+ejipura,ejipura,Ejipura,unique,100.0,9,False
+electronic city,electronic city,Electronic City,unique,100.0,289,False
+electronic city phase ii,electronic city phase ii,Electronic City Phase II,unique,100.0,128,False
+electronic city phase 1,electronic city phase 1,"Electronic city Phase 1,",unique,100.0,4,False
+electronics city phase 1,electronics city phase 1,Electronics City Phase 1,unique,100.0,88,False
+escorts colony,escorts colony,Escorts Colony,unique,100.0,1,False
+esther enclave layout,esther enclave layout,Esther Enclave Layout,unique,100.0,3,False
+ex servicemen colony dinnur main road r t nagar,ex servicemen colony dinnur main road r t nagar,Ex-Servicemen Colony Dinnur Main Road R.T.Nagar,unique,100.0,1,False
+ferrar nagar,ferrar nagar,Ferrar Nagar,unique,100.0,3,False
+fraser town,fraser town,Fraser town,unique,100.0,1,False
+frazer town,frazer town,Frazer Town,unique,100.0,36,False
+frazertown,frazer town,Frazer Town,whitespace_normalization,100.0,2,False
+friends colony,friends colony,Friends Colony,unique,100.0,2,False
+gb palya,gb palya,GB Palya,unique,100.0,1,False
+gd layout,gd layout,GD Layout,unique,100.0,2,False
+gkw layout,gkw layout,GKW Layout,unique,100.0,1,False
+gm palaya,gm palaya,GM Palaya,unique,100.0,12,False
+gandhi bazar,gandhi bazar,Gandhi Bazar,unique,100.0,2,False
+gandhi nagar,gandhi nagar,Gandhi Nagar,unique,100.0,1,False
+ganesha block,ganesha block,Ganesha Block,unique,100.0,2,False
+ganga nagar,ganga nagar,Ganga Nagar,unique,100.0,10,False
+ganga nagar extension,ganga nagar extension,Ganga Nagar Extension,unique,100.0,1,False
+ganganahalli,ganganahalli,Ganganahalli,unique,100.0,1,False
+gangondanahalli,gangondanahalli,Gangondanahalli,unique,100.0,1,False
+garden layout,garden layout,Garden Layout,unique,100.0,1,False
+garebhavipalya,garebhavipalya,Garebhavipalya,unique,100.0,2,False
+garudachar palya,garudachar palya,Garudachar Palya,unique,100.0,17,False
+gattahalli,gattahalli,Gattahalli,unique,100.0,3,False
+gattigere,gattigere,Gattigere,unique,100.0,2,False
+gaundanapalya,gaundanapalya,Gaundanapalya,unique,100.0,1,False
+gaurava nagar,gaurava nagar,Gaurava Nagar,unique,100.0,2,False
+gayathri nagar,gayathri nagar,Gayathri Nagar,unique,100.0,1,False
+geddalahalli,geddalahalli,Geddalahalli,unique,100.0,4,False
+geetanjali layout,geetanjali layout,Geetanjali Layout,unique,100.0,1,False
+geleyara balaga layout,geleyara balaga layout,Geleyara Balaga Layout,unique,100.0,2,False
+gidada konnenahalli,gidada konnenahalli,Gidada Konnenahalli,unique,100.0,2,False
+giri nagar,giri nagar,Giri Nagar,unique,100.0,14,False
+gkvk layout,gkvk layout,Gkvk Layout,unique,100.0,3,False
+glass factory layout,glass factory layout,Glass Factory Layout,unique,100.0,4,False
+gnana bharathi,gnana bharathi,Gnana Bharathi,unique,100.0,2,False
+gokaula extension,gokaula extension,Gokaula Extension,unique,100.0,1,False
+gokula extension,gokula extension,Gokula Extension,unique,100.0,3,False
+gollahalli,gollahalli,Gollahalli,unique,100.0,9,False
+gollarahatti,gollarahatti,Gollarahatti,unique,100.0,1,False
+gollarapalya hosahalli,gollarapalya hosahalli,Gollarapalya Hosahalli,unique,100.0,12,False
+gopal reddy layout,gopal reddy layout,Gopal Reddy Layout,unique,100.0,1,False
+gopalapura,gopalapura,Gopalapura,unique,100.0,6,False
+gopalkrishna nagar,gopalkrishna nagar,Gopalkrishna Nagar,unique,100.0,8,False
+goraguntepalya,goraguntepalya,Goraguntepalya,unique,100.0,1,False
+gottigere,gottigere,Gottigere,unique,100.0,48,False
+govindapura,govindapura,Govindapura,unique,100.0,3,False
+govindaraja nagar ward,govindaraja nagar ward,Govindaraja Nagar Ward,unique,100.0,2,False
+govindpura,govindpura,Govindpura,unique,100.0,5,False
+govindraja nagar,govindraja nagar,Govindraja Nagar,unique,100.0,1,False
+gowdanapalya,gowdanapalya,Gowdanapalya,unique,100.0,4,False
+green domain layout,green domain layout,Green Domain Layout,unique,100.0,2,False
+green garden layout,green garden layout,Green Garden Layout,unique,100.0,2,False
+green glen layout,green glen layout,Green Glen Layout,unique,100.0,39,False
+green view layout,green view layout,Green View Layout,unique,100.0,7,False
+green woods layout,green woods layout,Green Woods Layout,unique,100.0,2,False
+grihalakshmi layout,grihalakshmi layout,Grihalakshmi Layout,unique,100.0,1,False
+gubbalala,gubbalala,Gubbalala,unique,100.0,26,False
+gubbi cross hennur main road,gubbi cross hennur main road,"Gubbi Cross, Hennur Main Road",unique,100.0,1,False
+guddadahalli,guddadahalli,Guddadahalli,unique,100.0,2,False
+gulakamale,gulakamale,Gulakamale,unique,100.0,1,False
+gulimangala,gulimangala,Gulimangala,unique,100.0,3,False
+guni agrahara,guni agrahara,Guni Agrahara,unique,100.0,2,False
+gunjur,gunjur,Gunjur,unique,100.0,21,False
+gunjur palya,gunjur palya,Gunjur Palya,unique,100.0,10,False
+hal 2nd stage,hal 2nd stage,HAL 2nd Stage,unique,100.0,11,False
+hal 3rd stage,hal 3rd stage,HAL 3rd Stage,unique,100.0,2,False
+hal layout,hal layout,HAL Layout,unique,100.0,1,False
+hbr layout,hbr layout,HBR Layout,unique,100.0,20,False
+hmt layout,hmt layout,HMT Layout,unique,100.0,5,False
+hosur main road,hosur main road,HOSUR MAIN ROAD,unique,100.0,3,False
+hosur rmain road,hosur rmain road,HOSUR RMAIN ROAD,unique,100.0,1,False
+hrbr layout,hrbr layout,HRBR Layout,unique,100.0,19,False
+hsr layout,hsr layout,HSR Layout,unique,100.0,41,False
+hsr layout 7th sector,hsr layout 7th sector,"HSR Layout 7th sector,",unique,100.0,1,False
+hadosiddapura,hadosiddapura,Hadosiddapura,unique,100.0,2,False
+hagadur,hagadur,Hagadur,unique,100.0,3,False
+hal old airport road,hal old airport road,Hal old airport road,unique,100.0,1,False
+halanayakanahalli,halanayakanahalli,Halanayakanahalli,unique,100.0,1,False
+hallehalli,hallehalli,Hallehalli,unique,100.0,2,False
+handenahalli,handenahalli,Handenahalli,unique,100.0,1,False
+hanumagiri,hanumagiri,Hanumagiri,unique,100.0,1,False
+hanuman nagar,hanuman nagar,Hanuman Nagar,unique,100.0,1,False
+hanumanth nagar,hanumanth nagar,Hanumanth Nagar,unique,100.0,4,False
+hanumantha nagar,hanumantha nagar,Hanumantha Nagar,unique,100.0,3,False
+haralur road,haralur road,Haralur Road,unique,100.0,103,False
+harappanahalli,harappanahalli,Harappanahalli,unique,100.0,3,False
+harlur,harlur,Harlur,unique,100.0,77,False
+harohalli,harohalli,Harohalli,unique,100.0,2,False
+harsha layout,harsha layout,Harsha Layout,unique,100.0,4,False
+havanur extension,havanur extension,Havanur extension,unique,100.0,1,False
+hebbal,hebbal,Hebbal,unique,100.0,161,False
+hebbal kempapura,hebbal kempapura,Hebbal Kempapura,unique,100.0,33,False
+hegde nagar,hegde nagar,Hegde Nagar,unique,100.0,48,False
+hegganahalli,hegganahalli,Hegganahalli,unique,100.0,3,False
+hennagara,hennagara,Hennagara,unique,100.0,2,False
+hennur,hennur,Hennur,unique,100.0,49,False
+hennur bande,hennur bande,Hennur Bande,unique,100.0,6,False
+hennur busstop,hennur busstop,Hennur Busstop,unique,100.0,1,False
+hennur gardens,hennur gardens,Hennur Gardens,unique,100.0,7,False
+hennur road,hennur road,Hennur Road,unique,100.0,149,False
+herohalli,herohalli,Herohalli,unique,100.0,4,False
+hessarghatta,hessarghatta,Hessarghatta,unique,100.0,7,False
+high grounds,high grounds,High grounds,unique,100.0,1,False
+himagiri meadows,himagiri meadows,Himagiri Meadows,unique,100.0,3,False
+hiremath layout,hiremath layout,Hiremath Layout,unique,100.0,5,False
+hommadevanahalli,hommadevanahalli,Hommadevanahalli,unique,100.0,1,False
+hongasandra,hongasandra,Hongasandra,unique,100.0,8,False
+hoodi,hoodi,Hoodi,unique,100.0,88,False
+hoodi circle,hoodi circle,"Hoodi Circle,",unique,100.0,7,False
+hoodi layout,hoodi layout,Hoodi Layout,unique,100.0,2,False
+horamavu agara,horamavu agara,Horamavu Agara,unique,100.0,41,False
+horamavu banaswadi,horamavu banaswadi,Horamavu Banaswadi,unique,100.0,25,False
+hormavu,hormavu,Hormavu,unique,100.0,73,False
+hosa road,hosa road,Hosa Road,unique,100.0,70,False
+hosahalli,hosahalli,Hosahalli,unique,100.0,1,False
+hosahalli extension,hosahalli extension,Hosahalli Extension,unique,100.0,5,False
+hosakerehalli,hosakerehalli,Hosakerehalli,unique,100.0,36,False
+hosakerehalli layout,hosakerehalli layout,Hosakerehalli Layout,unique,100.0,2,False
+hosapalya,hosapalya,Hosapalya,unique,100.0,3,False
+hoskote,hoskote,Hoskote,unique,100.0,22,False
+hoskote near,hoskote near,Hoskote near,unique,100.0,1,False
+hosur road,hosur road,Hosur Road,unique,100.0,45,False
+housing board layout vijay nagar,housing board layout vijay nagar,Housing Board Layout Vijay Nagar,unique,100.0,1,False
+howthinarayanappa garden,howthinarayanappa garden,Howthinarayanappa Garden,unique,100.0,1,False
+hoysalanagar,hoysalanagar,Hoysalanagar,unique,100.0,8,False
+hsr layout sector3,hsr layout sector3,Hsr layout sector3,unique,100.0,1,False
+hulimavu,hulimavu,Hulimavu,unique,100.0,52,False
+hullahalli,hullahalli,Hullahalli,unique,100.0,1,False
+hunasamaranahalli,hunasamaranahalli,Hunasamaranahalli,unique,100.0,2,False
+huskur,huskur,Huskur,unique,100.0,8,False
+huttanahalli,huttanahalli,Huttanahalli,unique,100.0,1,False
+isro layout,isro layout,ISRO Layout,unique,100.0,12,False
+iti employees layout,iti employees layout,ITI Employees Layout,unique,100.0,1,False
+iti layout,iti layout,ITI Layout,unique,100.0,6,False
+itpl,itpl,ITPL,unique,100.0,12,False
+ivc road,ivc road,IVC Road,unique,100.0,1,False
+iblur village,iblur village,Iblur Village,unique,100.0,23,False
+iggalur,iggalur,Iggalur,unique,100.0,1,False
+ilyas nagar,ilyas nagar,Ilyas Nagar,unique,100.0,3,False
+immadihalli,immadihalli,Immadihalli,unique,100.0,4,False
+indira nagar,indira nagar,Indira Nagar,unique,100.0,43,False
+indira nagar 3rd stage,indira nagar 3rd stage,Indira Nagar 3rd Stage,unique,100.0,1,False
+indira nagar stage 2,indira nagar stage 2,Indira Nagar Stage 2,unique,100.0,1,False
+indiranagar hal 2nd stage,indiranagar hal 2nd stage,Indiranagar HAL 2nd Stage,unique,100.0,1,False
+indra nagar,indra nagar,Indra Nagar,unique,100.0,2,False
+indranagar 100ft road defence colony,indranagar 100ft road defence colony,Indranagar  100ft road defence colony,unique,100.0,1,False
+infantry road,infantry road,Infantry Road,unique,100.0,2,False
+ittamadu,ittamadu,Ittamadu,unique,100.0,9,False
+j c nagar,j c nagar,J C Nagar,unique,100.0,3,False
+j p nagar 7th phase ramayya city,j p nagar 7th phase ramayya city,J P Nagar 7th Phase Ramayya City,unique,100.0,1,False
+j p nagar 6th phase sarakki nagar,j p nagar 6th phase sarakki nagar,J.P.nagar 6th Phase.Sarakki Nagar,unique,100.0,1,False
+jcr layout,jcr layout,JCR Layout,unique,100.0,4,False
+jp nagar,jp nagar,JP Nagar,unique,100.0,71,False
+jp nagar 7th phase,jp nagar 7th phase,"JP Nagar 7th Phase,",unique,100.0,2,False
+jp nagar 8th phase,jp nagar 8th phase,"JP Nagar 8th Phase,",unique,100.0,3,False
+jp nagar 9th phase,jp nagar 9th phase,"JP nagar 9th Phase,",unique,100.0,1,False
+jagadish nagar,jagadish nagar,Jagadish Nagar,unique,100.0,1,False
+jagajyothi layout,jagajyothi layout,Jagajyothi layout,unique,100.0,1,False
+jai bheema nagar,jai bheema nagar,Jai Bheema Nagar,unique,100.0,2,False
+jakkasandra,jakkasandra,Jakkasandra,unique,100.0,1,False
+jakkasandra extension,jakkasandra extension,Jakkasandra Extension,unique,100.0,5,False
+jakkur,jakkur,Jakkur,unique,100.0,70,False
+jakkur plantation,jakkur plantation,Jakkur Plantation,unique,100.0,9,False
+jakkuryelahanka,jakkuryelahanka,JakkurYelahanka,unique,100.0,1,False
+jakkuru layout,jakkuru layout,Jakkuru Layout,unique,100.0,3,False
+jaladarsini layout,jaladarsini layout,Jaladarsini Layout,unique,100.0,1,False
+jalahalli,jalahalli,Jalahalli,unique,100.0,49,False
+jalahalli east,jalahalli east,Jalahalli East,unique,100.0,12,False
+jalahalli west,jalahalli west,Jalahalli West,unique,100.0,8,False
+janatha colony,janatha colony,Janatha Colony,unique,100.0,2,False
+jaraganahalli jp nagar post,jaraganahalli jp nagar post,Jaraganahalli Jp Nagar Post,unique,100.0,1,False
+javarandoddi,javarandoddi,Javarandoddi,unique,100.0,1,False
+jay an agar 4 t block,jay an agar 4 t block,Jay an agar 4 T Block,unique,100.0,1,False
+jaya mahal layout,jaya mahal layout,Jaya Mahal layout,unique,100.0,2,False
+jaya nagar east,jaya nagar east,Jaya Nagar East,unique,100.0,1,False
+jayamahal,jayamahal,Jayamahal,unique,100.0,3,False
+jayamahal extension,jayamahal extension,Jayamahal Extension,unique,100.0,2,False
+jayanagar,jayanagar,Jayanagar,unique,100.0,8,False
+jayanti nagar,jayanti nagar,Jayanti Nagar,unique,100.0,3,False
+jaymahal road,jaymahal road,Jaymahal Road,unique,100.0,1,False
+jeevan bima nagar,jeevan bima nagar,Jeevan bima nagar,unique,100.0,7,False
+jeevanhalli,jeevanhalli,Jeevanhalli,unique,100.0,1,False
+jigani,jigani,Jigani,unique,100.0,53,False
+jinkethimmanahalli,jinkethimmanahalli,Jinkethimmanahalli,unique,100.0,3,False
+jnana ganga nagar,jnana ganga nagar,Jnana Ganga Nagar,unique,100.0,3,False
+jnanabharathi layout,jnanabharathi layout,Jnanabharathi Layout,unique,100.0,4,False
+jogupalya,jogupalya,Jogupalya,unique,100.0,1,False
+judicial layout,judicial layout,Judicial Layout,unique,100.0,16,False
+judicial layout kanakapura road,judicial layout kanakapura road,"Judicial Layout, Kanakapura Road,",unique,100.0,4,False
+junnasandra,junnasandra,Junnasandra,unique,100.0,1,False
+jyothi nagar,jyothi nagar,Jyothi Nagar,unique,100.0,2,False
+k g colony,k g colony,K G Colony,unique,100.0,1,False
+k n extension,k n extension,K N Extension,unique,100.0,1,False
+k r c kothanur,k r c kothanur,K R C kothanur,unique,100.0,1,False
+kamakiya,kamakiya,KAMAKIYA,unique,100.0,1,False
+keb colony,keb colony,KEB Colony,unique,100.0,2,False
+kg halli,kg halli,KG Halli,unique,100.0,1,False
+khb colony extension,khb colony extension,KHB Colony Extension,unique,100.0,1,False
+kpc layout,kpc layout,KPC Layout,unique,100.0,1,False
+kr garden,kr garden,KR Garden,unique,100.0,5,False
+kr layout,kr layout,KR Layout,unique,100.0,3,False
+kr puram,kr puram,KR Puram,unique,100.0,91,False
+ksrtc layout,ksrtc layout,KSRTC Layout,unique,100.0,3,False
+kudlu main road,kudlu main road,KUDLU MAIN ROAD,unique,100.0,4,False
+kachanayakanahalli,kachanayakanahalli,Kachanayakanahalli,unique,100.0,3,False
+kacharakanahalli,kacharakanahalli,Kacharakanahalli,unique,100.0,5,False
+kada agrahara,kada agrahara,Kada Agrahara,unique,100.0,5,False
+kadabagere,kadabagere,Kadabagere,unique,100.0,5,False
+kadarenahalli,kadarenahalli,Kadarenahalli,unique,100.0,2,False
+kadubeesanahalli,kadubeesanahalli,Kadubeesanahalli,unique,100.0,13,False
+kadugodi,kadugodi,Kadugodi,unique,100.0,40,False
+kadugondanahalli,kadugondanahalli,Kadugondanahalli,unique,100.0,5,False
+kaggadasapura,kaggadasapura,Kaggadasapura,unique,100.0,64,False
+kaggalipura,kaggalipura,Kaggalipura,unique,100.0,19,False
+kaikondrahalli,kaikondrahalli,Kaikondrahalli,unique,100.0,17,False
+kalasipalya,kalasipalya,Kalasipalya,unique,100.0,1,False
+kalena agrahara,kalena agrahara,Kalena Agrahara,unique,100.0,33,False
+kalhalli,kalhalli,Kalhalli,unique,100.0,1,False
+kalkere,kalkere,Kalkere,unique,100.0,10,False
+kalkere channasandra,kalkere channasandra,Kalkere Channasandra,unique,100.0,1,False
+kallumantapa,kallumantapa,Kallumantapa,unique,100.0,5,False
+kalyan nagar,kalyan nagar,Kalyan nagar,unique,100.0,19,False
+kamakshipalya,kamakshipalya,Kamakshipalya,unique,100.0,9,False
+kamakya layout,kamakya layout,Kamakya Layout,unique,100.0,3,False
+kamala nagar,kamala nagar,Kamala Nagar,unique,100.0,4,False
+kambipura,kambipura,Kambipura,unique,100.0,16,False
+kamdhenu nagar,kamdhenu nagar,Kamdhenu Nagar,unique,100.0,1,False
+kammagondahalli,kammagondahalli,Kammagondahalli,unique,100.0,4,False
+kammanahalli,kammanahalli,Kammanahalli,unique,100.0,17,False
+kammasandra,kammasandra,Kammasandra,unique,100.0,29,False
+kanaka nagar,kanaka nagar,Kanaka Nagar,unique,100.0,8,False
+kanakadasa layout,kanakadasa layout,Kanakadasa Layout,unique,100.0,1,False
+kanakapur main road,kanakapur main road,Kanakapur main road,unique,100.0,1,False
+kanakapura,kanakapura,Kanakapura,unique,100.0,39,False
+kanakapura rod,kanakapura rod,Kanakapura  Rod,unique,100.0,1,False
+kanakpura road,kanakpura road,Kanakpura Road,unique,100.0,249,False
+kannamangala,kannamangala,Kannamangala,unique,100.0,18,False
+kannur,kannur,Kannur,unique,100.0,2,False
+kariyammana agrahara,kariyammana agrahara,Kariyammana Agrahara,unique,100.0,2,False
+karnataka shabarimala,karnataka shabarimala,Karnataka Shabarimala,unique,100.0,1,False
+karuna nagar,karuna nagar,Karuna Nagar,unique,100.0,12,False
+kasavanhalli,kasavanhalli,Kasavanhalli,unique,100.0,79,False
+kashi nagar,kashi nagar,Kashi Nagar,unique,100.0,3,False
+kasthuri nagar east of ngef,kasthuri nagar east of ngef,Kasthuri Nagar East Of NGEF,unique,100.0,1,False
+kasturi nagar,kasturi nagar,Kasturi Nagar,unique,100.0,16,False
+kathreguppe,kathreguppe,Kathreguppe,unique,100.0,2,False
+kathriguppe,kathriguppe,Kathriguppe,unique,100.0,19,False
+kathriguppe iv phase,kathriguppe iv phase,Kathriguppe IV Phase,unique,100.0,1,False
+kattigenahalli,kattigenahalli,Kattigenahalli,unique,100.0,8,False
+kaval byrasandra,kaval byrasandra,Kaval Byrasandra,unique,100.0,22,False
+kaverappa layout,kaverappa layout,Kaverappa Layout,unique,100.0,9,False
+kaveri nagar,kaveri nagar,Kaveri Nagar,unique,100.0,3,False
+kavika layout,kavika layout,Kavika Layout,unique,100.0,3,False
+keerthi layout,keerthi layout,Keerthi Layout,unique,100.0,1,False
+kempapura,kempapura,Kempapura,unique,100.0,2,False
+kempegowda nagar,kempegowda nagar,Kempegowda Nagar,unique,100.0,2,False
+kenchanehalli r r nagar,kenchanehalli r r nagar,Kenchanehalli R R Nagar,unique,100.0,1,False
+kenchenahalli,kenchenahalli,Kenchenahalli,unique,100.0,16,False
+kenchenhalli,kenchenhalli,Kenchenhalli,unique,100.0,3,False
+kengeri,kengeri,Kengeri,unique,100.0,73,False
+kengeri hobli,kengeri hobli,Kengeri Hobli,unique,100.0,3,False
+kengeri satellite town,kengeri satellite town,Kengeri Satellite Town,unique,100.0,40,False
+kengeri satellite town bda site,kengeri satellite town bda site,Kengeri Satellite Town ( BDA SITE),unique,100.0,1,False
+kengeri satellite town khb apartment,kengeri satellite town khb apartment,Kengeri Satellite Town KHB Apartment,unique,100.0,1,False
+kengeri satellite town stage ii,kengeri satellite town stage ii,Kengeri Satellite Town Stage II,unique,100.0,1,False
+kereguddadahalli,kereguddadahalli,Kereguddadahalli,unique,100.0,16,False
+keshava nagar,keshava nagar,Keshava Nagar,unique,100.0,7,False
+kirloskar layout,kirloskar layout,Kirloskar Layout,unique,100.0,4,False
+kirloskar layout basaveshwarnagar,kirloskar layout basaveshwarnagar,"Kirloskar layout, Basaveshwarnagar",unique,100.0,1,False
+kithaganur,kithaganur,Kithaganur,unique,100.0,3,False
+kodanda reddy layout,kodanda reddy layout,Kodanda Reddy Layout,unique,100.0,1,False
+kodathi,kodathi,Kodathi,unique,100.0,4,False
+kodbisanhalli,kodbisanhalli,Kodbisanhalli,unique,100.0,8,False
+kodichikkanahalli,kodichikkanahalli,Kodichikkanahalli,unique,100.0,27,False
+kodigehaali,kodigehaali,Kodigehaali,unique,100.0,13,False
+kodigehalli,kodigehalli,Kodigehalli,unique,100.0,11,False
+kodihalli,kodihalli,Kodihalli,unique,100.0,15,False
+kodipalya,kodipalya,Kodipalya,unique,100.0,3,False
+kogilu,kogilu,Kogilu,unique,100.0,20,False
+konanakunte,konanakunte,Konanakunte,unique,100.0,13,False
+konanakunte cross,konanakunte cross,Konanakunte Cross,unique,100.0,4,False
+konappana agrahara,konappana agrahara,Konappana Agrahara,unique,100.0,1,False
+konena agrahara,konena agrahara,Konena Agrahara,unique,100.0,3,False
+koppa,koppa,Koppa,unique,100.0,2,False
+koramangala,koramangala,Koramangala,unique,100.0,70,False
+koramangala industrial layout,koramangala industrial layout,Koramangala Industrial Layout,unique,100.0,2,False
+kothannur,kothannur,Kothannur,unique,100.0,26,False
+kothanur,kothanur,Kothanur,unique,100.0,64,False
+kothnoor dinne,kothnoor dinne,Kothnoor Dinne,unique,100.0,2,False
+kothnur narayanapura,kothnur narayanapura,Kothnur Narayanapura,unique,100.0,3,False
+krishna nagar,krishna nagar,Krishna Nagar,unique,100.0,2,False
+krishna reddy layout,krishna reddy layout,Krishna Reddy Layout,unique,100.0,3,False
+kudlu,kudlu,Kudlu,unique,100.0,26,False
+kudlu gate,kudlu gate,Kudlu Gate,unique,100.0,37,False
+kudlu village,kudlu village,"Kudlu Village,",unique,100.0,1,False
+kullappa colony,kullappa colony,Kullappa Colony,unique,100.0,2,False
+kumara park,kumara park,Kumara Park,unique,100.0,6,False
+kumarapalli,kumarapalli,Kumarapalli,unique,100.0,4,False
+kumaraswami layout,kumaraswami layout,Kumaraswami Layout,unique,100.0,30,False
+kumbalgodu,kumbalgodu,Kumbalgodu,unique,100.0,2,False
+kumbena agrahara,kumbena agrahara,Kumbena Agrahara,unique,100.0,3,False
+kumbhena agrahara,kumbhena agrahara,Kumbhena Agrahara,unique,100.0,1,False
+kundalahalli,kundalahalli,Kundalahalli,unique,100.0,46,False
+kundalahalli colony,kundalahalli colony,Kundalahalli Colony,unique,100.0,7,False
+kurubarahalli,kurubarahalli,Kurubarahalli,unique,100.0,5,False
+kuvempu layout,kuvempu layout,Kuvempu Layout,unique,100.0,1,False
+kuvempu nagar,kuvempu nagar,Kuvempu Nagar,unique,100.0,4,False
+kyalasanahalli,kyalasanahalli,Kyalasanahalli,unique,100.0,2,False
+lb shastri nagar,lb shastri nagar,LB Shastri Nagar,unique,100.0,11,False
+lic colony,lic colony,LIC Colony,unique,100.0,1,False
+laggere,laggere,Laggere,unique,100.0,12,False
+lake city,lake city,Lake City,unique,100.0,4,False
+lakkasandra,lakkasandra,Lakkasandra,unique,100.0,2,False
+lakkasandra extension,lakkasandra extension,Lakkasandra Extension,unique,100.0,1,False
+lakshmi layout,lakshmi layout,Lakshmi Layout,unique,100.0,4,False
+lakshmiamma garden,lakshmiamma garden,Lakshmiamma Garden,unique,100.0,2,False
+lakshminarayana pura,lakshminarayana pura,Lakshminarayana Pura,unique,100.0,36,False
+lakshminarayanapura electronic city phase 2,lakshminarayanapura electronic city phase 2,"Lakshminarayanapura, Electronic City Phase 2",unique,100.0,1,False
+lakshmipura,lakshmipura,Lakshmipura,unique,100.0,3,False
+lakshmipura vidyaanyapura,lakshmipura vidyaanyapura,Lakshmipura Vidyaanyapura,unique,100.0,1,False
+lal bahadur shastri nagar,lal bahadur shastri nagar,Lal Bahadur Shastri Nagar,unique,100.0,2,False
+lalbagh road,lalbagh road,Lalbagh Road,unique,100.0,1,False
+langford gardens,langford gardens,Langford Gardens,unique,100.0,2,False
+langford town,langford town,Langford Town,unique,100.0,4,False
+lavakusha nagar,lavakusha nagar,Lavakusha Nagar,unique,100.0,4,False
+lavelle road,lavelle road,Lavelle Road,unique,100.0,5,False
+laxmi sagar layout,laxmi sagar layout,Laxmi Sagar Layout,unique,100.0,4,False
+laxminarayana layout,laxminarayana layout,Laxminarayana Layout,unique,100.0,1,False
+lingadheeranahalli,lingadheeranahalli,Lingadheeranahalli,unique,100.0,23,False
+lingarajapuram,lingarajapuram,Lingarajapuram,unique,100.0,9,False
+lottegolla halli,lottegolla halli,Lottegolla Halli,unique,100.0,3,False
+m c layout,m c layout,M C Layout,unique,100.0,1,False
+m v extenstion,m v extenstion,M V Extenstion,unique,100.0,2,False
+m g road,m g road,M.G Road,unique,100.0,1,False
+mcechs layout,mcechs layout,MCECHS  layout,unique,100.0,4,False
+mei layout bagalgunte,mei layout bagalgunte,"MEI layout, Bagalgunte",unique,100.0,1,False
+mla layout,mla layout,MLA Layout,unique,100.0,2,False
+mm layout,mm layout,MM Layout,unique,100.0,1,False
+mrcr layout,mrcr layout,MRCR Layout,unique,100.0,1,False
+ms pallya,ms pallya,MS Pallya,unique,100.0,8,False
+madanayakahalli,madanayakahalli,Madanayakahalli,unique,100.0,1,False
+madavara,madavara,Madavara,unique,100.0,2,False
+madiwala,madiwala,Madiwala,unique,100.0,7,False
+magadi road,magadi road,Magadi Road,unique,100.0,25,False
+mahadevpura,mahadevpura,Mahadevpura,unique,100.0,30,False
+mahaganapathy nagar,mahaganapathy nagar,Mahaganapathy Nagar,unique,100.0,2,False
+mahalakshmi layout,mahalakshmi layout,Mahalakshmi Layout,unique,100.0,13,False
+mahalakshmi puram,mahalakshmi puram,Mahalakshmi Puram,unique,100.0,8,False
+maheswari nagar,maheswari nagar,Maheswari Nagar,unique,100.0,1,False
+mailasandra,mailasandra,Mailasandra,unique,100.0,1,False
+maithri layout,maithri layout,Maithri Layout,unique,100.0,5,False
+makali,makali,Makali,unique,100.0,3,False
+malimakanapura,malimakanapura,Malimakanapura,unique,100.0,1,False
+mallappa layout,mallappa layout,Mallappa Layout,unique,100.0,1,False
+mallasandra,mallasandra,Mallasandra,unique,100.0,16,False
+mallathahalli,mallathahalli,Mallathahalli,unique,100.0,5,False
+malleshpalya,malleshpalya,Malleshpalya,unique,100.0,17,False
+malleshwaram,malleshwaram,Malleshwaram,unique,100.0,56,False
+malur hosur road,malur hosur road,Malur Hosur Road,unique,100.0,1,False
+manayata tech park,manayata tech park,Manayata Tech Park,unique,100.0,8,False
+mangammanapalya,mangammanapalya,Mangammanapalya,unique,100.0,3,False
+manganahalli,manganahalli,Manganahalli,unique,100.0,1,False
+mango garden layout,mango garden layout,Mango Garden Layout,unique,100.0,1,False
+manjunath nagar,manjunath nagar,Manjunath Nagar,unique,100.0,4,False
+manjunatha layout,manjunatha layout,Manjunatha Layout,unique,100.0,2,False
+manonarayanapalya,manonarayanapalya,Manonarayanapalya,unique,100.0,1,False
+manorayana palya,manorayana palya,Manorayana Palya,unique,100.0,3,False
+maragondana halli kr puram old madras road,maragondana halli kr puram old madras road,"Maragondana Halli, kr puram, old madras road",unique,100.0,1,False
+maragondanahalli,maragondanahalli,Maragondanahalli,unique,100.0,6,False
+marasandra,marasandra,Marasandra,unique,100.0,3,False
+marathahalli,marathahalli,Marathahalli,unique,100.0,169,False
+marathalli bridge,marathalli bridge,Marathalli bridge,unique,100.0,1,False
+marathi layout,marathi layout,Marathi Layout,unique,100.0,1,False
+marenahalli,marenahalli,Marenahalli,unique,100.0,2,False
+margondanahalli,margondanahalli,Margondanahalli,unique,100.0,25,False
+mariyannapalya,mariyannapalya,Mariyannapalya,unique,100.0,2,False
+marsur,marsur,Marsur,unique,100.0,10,False
+maruthi extension,maruthi extension,Maruthi Extension,unique,100.0,1,False
+maruthi hbcs layout,maruthi hbcs layout,Maruthi HBCS Layout,unique,100.0,1,False
+maruthi layout,maruthi layout,Maruthi Layout,unique,100.0,1,False
+maruthi nagar,maruthi nagar,Maruthi Nagar,unique,100.0,5,False
+maruthi sevanagar,maruthi sevanagar,Maruthi Sevanagar,unique,100.0,7,False
+maruthi nagar kogilu,maruthi nagar kogilu,Maruthi nagar kogilu,unique,100.0,1,False
+masjid e alkareem,masjid e alkareem,Masjid e Alkareem,unique,100.0,1,False
+mathikere,mathikere,Mathikere,unique,100.0,9,False
+mathikere extension,mathikere extension,Mathikere Extension,unique,100.0,3,False
+mathikere sbm colony,mathikere sbm colony,Mathikere SBM colony,unique,100.0,1,False
+medahalli,medahalli,Medahalli,unique,100.0,9,False
+medaralli,medaralli,Medaralli,unique,100.0,1,False
+medi agrahara,medi agrahara,Medi Agrahara,unique,100.0,1,False
+meenakshi layout,meenakshi layout,Meenakshi Layout,unique,100.0,1,False
+meenakunte,meenakunte,Meenakunte,unique,100.0,6,False
+michael palaya,michael palaya,Michael Palaya,unique,100.0,1,False
+mico layout,mico layout,Mico Layout,unique,100.0,12,False
+milk colony,milk colony,Milk Colony,unique,100.0,1,False
+millers road,millers road,Millers Road,unique,100.0,1,False
+moodalapalya,moodalapalya,Moodalapalya,unique,100.0,4,False
+motappa layout,motappa layout,Motappa Layout,unique,100.0,6,False
+mudalpalaya,mudalpalaya,Mudalpalaya,unique,100.0,1,False
+mukkutam nagar,mukkutam nagar,Mukkutam Nagar,unique,100.0,1,False
+mullur,mullur,Mullur,unique,100.0,1,False
+muneshwara nagar,muneshwara nagar,Muneshwara Nagar,unique,100.0,2,False
+munivenkatppa layout,munivenkatppa layout,Munivenkatppa Layout,unique,100.0,5,False
+munnekollal,munnekollal,Munnekollal,unique,100.0,24,False
+murugeshpalya,murugeshpalya,Murugeshpalya,unique,100.0,14,False
+muthurayya swamy layout,muthurayya swamy layout,Muthurayya Swamy Layout,unique,100.0,2,False
+muthyala nagar,muthyala nagar,Muthyala Nagar,unique,100.0,1,False
+mylasandra,mylasandra,Mylasandra,unique,100.0,4,False
+mysore highway,mysore highway,Mysore Highway,unique,100.0,4,False
+mysore road,mysore road,Mysore Road,unique,100.0,50,False
+n r layout,n r layout,N R Layout,unique,100.0,1,False
+ngr layout,ngr layout,NGR Layout,unique,100.0,13,False
+nr colony,nr colony,NR Colony,unique,100.0,1,False
+nri layout,nri layout,NRI Layout,unique,100.0,14,False
+ns palya,ns palya,NS Palya,unique,100.0,4,False
+nti layout,nti layout,NTI Layout,unique,100.0,1,False
+nagadevanahalli,nagadevanahalli,Nagadevanahalli,unique,100.0,10,False
+naganathapura,naganathapura,Naganathapura,unique,100.0,10,False
+nagappa reddy layout,nagappa reddy layout,Nagappa Reddy Layout,unique,100.0,10,False
+nagaraja garden,nagaraja garden,Nagaraja Garden,unique,100.0,4,False
+nagarbhavi,nagarbhavi,Nagarbhavi,unique,100.0,60,False
+nagarbhavi bda complex,nagarbhavi bda complex,Nagarbhavi  BDA Complex,unique,100.0,1,False
+nagarbhavi garden villas layout,nagarbhavi garden villas layout,Nagarbhavi Garden Villas Layout,unique,100.0,1,False
+nagasandra,nagasandra,Nagasandra,unique,100.0,12,False
+nagashetty halli,nagashetty halli,Nagashetty Halli,unique,100.0,5,False
+nagavara,nagavara,Nagavara,unique,100.0,17,False
+nagavarapalya,nagavarapalya,Nagavarapalya,unique,100.0,15,False
+nagawara junction,nagawara junction,Nagawara Junction,unique,100.0,6,False
+nagondanahalli,nagondanahalli,Nagondanahalli,unique,100.0,5,False
+naidu layout,naidu layout,Naidu Layout,unique,100.0,2,False
+nallurhalli,nallurhalli,Nallurhalli,unique,100.0,8,False
+nandi durga road,nandi durga road,Nandi Durga Road,unique,100.0,2,False
+nandi hills,nandi hills,Nandi Hills,unique,100.0,2,False
+nandini layout,nandini layout,Nandini Layout,unique,100.0,3,False
+nanjappa garden,nanjappa garden,Nanjappa Garden,unique,100.0,2,False
+nanjappa layout,nanjappa layout,Nanjappa Layout,unique,100.0,3,False
+nanjappa layout vidyaranyapura,nanjappa layout vidyaranyapura,Nanjappa Layout Vidyaranyapura,unique,100.0,1,False
+narasapura,narasapura,Narasapura,unique,100.0,1,False
+narayana nagar 1st block,narayana nagar 1st block,Narayana Nagar 1st Block,unique,100.0,3,False
+narayanappa garden,narayanappa garden,Narayanappa Garden,unique,100.0,1,False
+narayanappa layout,narayanappa layout,Narayanappa Layout,unique,100.0,1,False
+narayanapura,narayanapura,Narayanapura,unique,100.0,10,False
+navodaya nagar,navodaya nagar,Navodaya Nagar,unique,100.0,1,False
+nayandanahalli,nayandanahalli,Nayandanahalli,unique,100.0,6,False
+ncpr industrial layout,ncpr industrial layout,Ncpr Industrial Layout,unique,100.0,1,False
+near electronic city,near electronic city,"Near Electronic City,",unique,100.0,1,False
+near international airport,near international airport,Near International Airport,unique,100.0,2,False
+near ullas theater,near ullas theater,Near ullas theater,unique,100.0,1,False
+neeladri nagar,neeladri nagar,Neeladri Nagar,unique,100.0,13,False
+neelamangala,neelamangala,Neelamangala,unique,100.0,2,False
+neelasandra,neelasandra,Neelasandra,unique,100.0,1,False
+nehru nagar,nehru nagar,Nehru Nagar,unique,100.0,11,False
+nelamangala,nelamangala,Nelamangala,unique,100.0,8,False
+new gurappana palya,new gurappana palya,New Gurappana Palya,unique,100.0,5,False
+new thippasandra,new thippasandra,New Thippasandra,unique,100.0,6,False
+ngef layout,ngef layout,Ngef Layout,unique,100.0,4,False
+nirman layout,nirman layout,Nirman Layout,unique,100.0,1,False
+nobo nagar,nobo nagar,Nobo Nagar,unique,100.0,3,False
+nrupathunga nagar,nrupathunga nagar,Nrupathunga Nagar,unique,100.0,1,False
+nyanappana halli,nyanappana halli,Nyanappana Halli,unique,100.0,4,False
+old gurappanapalya,old gurappanapalya,OLd Gurappanapalya,unique,100.0,4,False
+ombr layout,ombr layout,OMBR Layout,unique,100.0,19,False
+off bannergatta road,off bannergatta road,Off Bannergatta road,unique,100.0,2,False
+off sarjapur road,off sarjapur road,"Off Sarjapur Road,",unique,100.0,6,False
+okalipura,okalipura,Okalipura,unique,100.0,1,False
+old airport road,old airport road,Old Airport Road,unique,100.0,29,False
+old madras road,old madras road,Old Madras Road,unique,100.0,67,False
+old mangammanapalya road,old mangammanapalya road,Old Mangammanapalya Road,unique,100.0,1,False
+old town,old town,Old Town,unique,100.0,1,False
+omarbagh layout,omarbagh layout,Omarbagh Layout,unique,100.0,2,False
+omkar nagar,omkar nagar,Omkar Nagar,unique,100.0,2,False
+outer ring road east,outer ring road east,Outer Ring Road East,unique,100.0,7,False
+p krishnappa layout,p krishnappa layout,P Krishnappa Layout,unique,100.0,1,False
+p t colony,p t colony,P&T Colony,unique,100.0,1,False
+p t layout,p t layout,P&T Layout,unique,100.0,3,False
+pc palaya,pc palaya,PC Palaya,unique,100.0,1,False
+pns layout,pns layout,PNS Layout,unique,100.0,1,False
+padmanabhanagar,padmanabhanagar,Padmanabhanagar,unique,100.0,28,False
+pai layout,pai layout,Pai Layout,unique,100.0,19,False
+pai layout mahadevapura,pai layout mahadevapura,"Pai layout , Mahadevapura",unique,100.0,1,False
+palace guttahalli,palace guttahalli,Palace Guttahalli,unique,100.0,4,False
+palace road,palace road,Palace Road,unique,100.0,2,False
+palanahalli,palanahalli,Palanahalli,unique,100.0,3,False
+pampa extension,pampa extension,Pampa Extension,unique,100.0,3,False
+panathur,panathur,Panathur,unique,100.0,49,False
+panathur road,panathur road,"Panathur Road,",unique,100.0,1,False
+panduranga nagar,panduranga nagar,Panduranga Nagar,unique,100.0,2,False
+papareddipalya,papareddipalya,Papareddipalya,unique,100.0,1,False
+parappana agrahara,parappana agrahara,Parappana Agrahara,unique,100.0,7,False
+park view layout,park view layout,Park View Layout,unique,100.0,1,False
+patelappa layout,patelappa layout,Patelappa Layout,unique,100.0,2,False
+pattanagere,pattanagere,Pattanagere,unique,100.0,4,False
+pattandur agrahara,pattandur agrahara,Pattandur Agrahara,unique,100.0,10,False
+pattegarhpalya,pattegarhpalya,Pattegarhpalya,unique,100.0,1,False
+peenya,peenya,Peenya,unique,100.0,9,False
+phase 1 kammasandra,phase 1 kammasandra,Phase 1 Kammasandra,unique,100.0,2,False
+pillahalli,pillahalli,Pillahalli,unique,100.0,1,False
+pillanna gardens,pillanna gardens,Pillanna Gardens,unique,100.0,1,False
+poorna pragna layout,poorna pragna layout,Poorna Pragna Layout,unique,100.0,13,False
+poornapragna housing society layout,poornapragna housing society layout,Poornapragna Housing Society Layout,unique,100.0,4,False
+popular colony,popular colony,Popular Colony,unique,100.0,1,False
+postal colony,postal colony,Postal Colony,unique,100.0,2,False
+pragathi nagar,pragathi nagar,Pragathi Nagar,unique,100.0,4,False
+prakash nagar,prakash nagar,Prakash Nagar,unique,100.0,1,False
+prakruthi nagar,prakruthi nagar,Prakruthi Nagar,unique,100.0,1,False
+prakruthi township,prakruthi township,Prakruthi Township,unique,100.0,1,False
+prasanna layout herohalli,prasanna layout herohalli,Prasanna layout Herohalli,unique,100.0,1,False
+prasanth extension,prasanth extension,Prasanth Extension,unique,100.0,1,False
+prasanti nagar,prasanti nagar,Prasanti Nagar,unique,100.0,1,False
+prashanth nagar,prashanth nagar,Prashanth Nagar,unique,100.0,3,False
+prestige sunrise,prestige sunrise,Prestige Sunrise,unique,100.0,1,False
+prithvi layout,prithvi layout,Prithvi Layout,unique,100.0,13,False
+pulikeshi nagar,pulikeshi nagar,Pulikeshi Nagar,unique,100.0,1,False
+pulkeshi nagar,pulkeshi nagar,Pulkeshi Nagar,unique,100.0,2,False
+punappa layout,punappa layout,Punappa Layout,unique,100.0,1,False
+puttanahalli,puttanahalli,Puttanahalli,unique,100.0,4,False
+puttappa layout,puttappa layout,Puttappa Layout,unique,100.0,1,False
+queens road,queens road,Queens Road,unique,100.0,1,False
+r t nagar,r t nagar,R.T. Nagar,unique,100.0,36,False
+rbi layout,rbi layout,RBI Layout,unique,100.0,1,False
+rk colony,rk colony,RK Colony,unique,100.0,1,False
+rk layout 2nd stage,rk layout 2nd stage,RK Layout 2nd Stage,unique,100.0,1,False
+rmc yard,rmc yard,RMC YARD,unique,100.0,1,False
+rmv,rmv,RMV,unique,100.0,3,False
+rmv 2nd stage,rmv 2nd stage,RMV 2nd Stage,unique,100.0,7,False
+rmv extension,rmv extension,RMV Extension,unique,100.0,5,False
+rmv extension stage 2,rmv extension stage 2,RMV Extension Stage 2,unique,100.0,2,False
+rmv extension stage 2 rmv extension,rmv extension stage 2 rmv extension,"RMV extension stage 2, rmv extension",unique,100.0,1,False
+rpc layout,rpc layout,RPC layout,unique,100.0,3,False
+rr layout,rr layout,RR Layout,unique,100.0,2,False
+rto ullalu,rto ullalu,RTO ullalu,unique,100.0,1,False
+rwf west colony,rwf west colony,RWF West Colony,unique,100.0,4,False
+race course road,race course road,Race Course Road,unique,100.0,2,False
+rachenahalli,rachenahalli,Rachenahalli,unique,100.0,48,False
+raghavendra layout,raghavendra layout,Raghavendra Layout,unique,100.0,2,False
+raghavendra nagar,raghavendra nagar,Raghavendra Nagar,unique,100.0,3,False
+raghuvanahalli,raghuvanahalli,Raghuvanahalli,unique,100.0,5,False
+rahat bagh,rahat bagh,Rahat Bagh,unique,100.0,1,False
+rahmath nagar,rahmath nagar,Rahmath Nagar,unique,100.0,1,False
+rainbow drive,rainbow drive,Rainbow Drive,unique,100.0,1,False
+raja rajashweri nagar,raja rajashweri nagar,Raja Rajashweri Nagar,unique,100.0,1,False
+raja rajeshwari nagar,raja rajeshwari nagar,Raja Rajeshwari Nagar,unique,100.0,159,False
+rajarajeshwari nagar,raja rajeshwari nagar,Raja Rajeshwari Nagar,whitespace_normalization,100.0,3,False
+rajarajeshwarinagar,raja rajeshwari nagar,Raja Rajeshwari Nagar,whitespace_normalization,100.0,2,False
+raja rajeshwari nagar 5th stage,raja rajeshwari nagar 5th stage,Raja Rajeshwari Nagar 5th Stage,unique,100.0,4,False
+rajagopala nagar,rajagopala nagar,Rajagopala Nagar,unique,100.0,1,False
+rajaji nagar,rajaji nagar,Rajaji Nagar,unique,100.0,107,False
+rajankunte,rajankunte,Rajankunte,unique,100.0,3,False
+rajanna layout,rajanna layout,Rajanna Layout,unique,100.0,1,False
+rajapura,rajapura,Rajapura,unique,100.0,2,False
+rajarajesheari nagar,rajarajesheari nagar,Rajarajesheari nagar,unique,100.0,1,False
+rajarajeshwari nagara,rajarajeshwari nagara,Rajarajeshwari Nagara,unique,100.0,3,False
+raja rajeshwari nagara,rajarajeshwari nagara,Rajarajeshwari Nagara,whitespace_normalization,100.0,1,False
+rajasree layout,rajasree layout,Rajasree Layout,unique,100.0,2,False
+rajiv gandhi nagar,rajiv gandhi nagar,Rajiv Gandhi Nagar,unique,100.0,5,False
+rajiv nagar,rajiv nagar,Rajiv Nagar,unique,100.0,12,False
+ramagondanahalli,ramagondanahalli,Ramagondanahalli,unique,100.0,47,False
+ramakrishnappa layout,ramakrishnappa layout,Ramakrishnappa Layout,unique,100.0,7,False
+ramamohanapuram,ramamohanapuram,Ramamohanapuram,unique,100.0,1,False
+ramamurthy nagar,ramamurthy nagar,Ramamurthy Nagar,unique,100.0,72,False
+ramamurthy nagar extension,ramamurthy nagar extension,Ramamurthy Nagar Extension,unique,100.0,4,False
+ramanagara channapatna,ramanagara channapatna,Ramanagara Channapatna,unique,100.0,1,False
+ramanashree enclave,ramanashree enclave,Ramanashree Enclave,unique,100.0,2,False
+ramanjaneyanagar,ramanjaneyanagar,Ramanjaneyanagar,unique,100.0,5,False
+ramaswamy palya kammanahalli main road,ramaswamy palya kammanahalli main road,Ramaswamy Palya - Kammanahalli Main Road,unique,100.0,1,False
+ramchandrapuram,ramchandrapuram,Ramchandrapuram,unique,100.0,2,False
+ramesh nagar,ramesh nagar,Ramesh Nagar,unique,100.0,3,False
+rammana layout,rammana layout,Rammana Layout,unique,100.0,1,False
+rayasandra,rayasandra,Rayasandra,unique,100.0,22,False
+reliaable tranquil layout,reliaable tranquil layout,Reliaable Tranquil Layout,unique,100.0,8,False
+reliable woods layout,reliable woods layout,Reliable Woods Layout,unique,100.0,1,False
+remco bhel layout,remco bhel layout,Remco Bhel Layout,unique,100.0,2,False
+rest house road,rest house road,Rest House Road,unique,100.0,2,False
+richards town,richards town,Richards Town,unique,100.0,7,False
+richmond road,richmond road,Richmond Road,unique,100.0,1,False
+richmond town,richmond town,Richmond Town,unique,100.0,9,False
+ring road nagarbhavi,ring road nagarbhavi,Ring Road Nagarbhavi,unique,100.0,1,False
+roopena agrahara,roopena agrahara,Roopena Agrahara,unique,100.0,8,False
+rukmaiah layout,rukmaiah layout,Rukmaiah Layout,unique,100.0,1,False
+rustam bagh layout,rustam bagh layout,Rustam Bagh Layout,unique,100.0,5,False
+s r layout,s r layout,S R Layout,unique,100.0,1,False
+sarjapur bagalur road,sarjapur bagalur road,SARJAPUR BAGALUR ROAD,unique,100.0,1,False
+sbm colony,sbm colony,SBM Colony,unique,100.0,2,False
+shanthinagar,shanthinagar,SHANTHINAGAR,unique,100.0,1,False
+sk garden,sk garden,SK Garden,unique,100.0,1,False
+smv layout,smv layout,SMV layout,unique,100.0,3,False
+srinivasapura,srinivasapura,SRINIVASAPURA,unique,100.0,2,False
+sabari nagar,sabari nagar,Sabari Nagar,unique,100.0,1,False
+sadahalli,sadahalli,Sadahalli,unique,100.0,1,False
+sadanand nagar,sadanand nagar,Sadanand Nagar,unique,100.0,2,False
+sadaramangala,sadaramangala,Sadaramangala,unique,100.0,3,False
+sadashiva nagar,sadashiva nagar,Sadashiva Nagar,unique,100.0,10,False
+sadduguntepalya,sadduguntepalya,Sadduguntepalya,unique,100.0,1,False
+sadhguru layout,sadhguru layout,Sadhguru Layout,unique,100.0,1,False
+sahakara nagar,sahakara nagar,Sahakara Nagar,unique,100.0,37,False
+sahyadri layout,sahyadri layout,Sahyadri Layout,unique,100.0,1,False
+sai gardens,sai gardens,Sai Gardens,unique,100.0,4,False
+samethanahalli,samethanahalli,Samethanahalli,unique,100.0,6,False
+sampangi rama nagar,sampangi rama nagar,Sampangi Rama Nagar,unique,100.0,3,False
+sampangirama nagar,sampangi rama nagar,Sampangi Rama Nagar,whitespace_normalization,100.0,1,False
+sampige layout,sampige layout,Sampige Layout,unique,100.0,1,False
+sampigehalli,sampigehalli,Sampigehalli,unique,100.0,2,False
+sanjay nagar,sanjay nagar,Sanjay nagar,unique,100.0,20,False
+sanjeevini nagar,sanjeevini nagar,Sanjeevini Nagar,unique,100.0,3,False
+sanne amanikere,sanne amanikere,Sanne Amanikere,unique,100.0,3,False
+saptagiri layout,saptagiri layout,Saptagiri Layout,unique,100.0,1,False
+sarakki nagar,sarakki nagar,Sarakki Nagar,unique,100.0,14,False
+sarjapur,sarjapur,Sarjapur,unique,100.0,82,False
+sarjapur road,sarjapur road,Sarjapur  Road,unique,100.0,387,False
+sarjapura attibele road,sarjapura attibele road,Sarjapura - Attibele Road,unique,100.0,17,False
+sarvabhouma nagar,sarvabhouma nagar,Sarvabhouma Nagar,unique,100.0,3,False
+sarvobhogam nagar,sarvobhogam nagar,Sarvobhogam Nagar,unique,100.0,1,False
+sathanur,sathanur,Sathanur,unique,100.0,1,False
+sathya layout,sathya layout,Sathya Layout,unique,100.0,3,False
+sathya sai layout,sathya sai layout,Sathya Sai Layout,unique,100.0,8,False
+satyasaibaba layout,satyasaibaba layout,Satyasaibaba Layout,unique,100.0,1,False
+sector 1 hsr layout,sector 1 hsr layout,Sector 1 HSR Layout,unique,100.0,10,False
+sector 2 hsr layout,sector 2 hsr layout,Sector 2 HSR Layout,unique,100.0,16,False
+sector 3 hsr layout,sector 3 hsr layout,Sector 3 HSR Layout,unique,100.0,1,False
+sector 4 hsr layout,sector 4 hsr layout,Sector 4 HSR Layout,unique,100.0,1,False
+sector 6 hsr layout,sector 6 hsr layout,Sector 6 HSR Layout,unique,100.0,4,False
+sector 7 hsr layout,sector 7 hsr layout,Sector 7 HSR Layout,unique,100.0,13,False
+seegehalli,seegehalli,Seegehalli,unique,100.0,25,False
+seethappa layout,seethappa layout,Seethappa Layout,unique,100.0,1,False
+seetharampalya,seetharampalya,Seetharampalya,unique,100.0,8,False
+seshadripuram,seshadripuram,Seshadripuram,unique,100.0,3,False
+shakthi nagar,shakthi nagar,Shakthi Nagar,unique,100.0,1,False
+shampura,shampura,Shampura,unique,100.0,13,False
+shankarapuram,shankarapuram,Shankarapuram,unique,100.0,4,False
+shanthala nagar,shanthala nagar,Shanthala Nagar,unique,100.0,5,False
+shanthi layout,shanthi layout,Shanthi Layout,unique,100.0,2,False
+shanthi pura,shanthi pura,Shanthi Pura,unique,100.0,1,False
+shanti nagar,shanti nagar,Shanti Nagar,unique,100.0,8,False
+shantiniketan layout,shantiniketan layout,Shantiniketan Layout,unique,100.0,6,False
+shauhardha layout,shauhardha layout,Shauhardha Layout,unique,100.0,1,False
+shettigere,shettigere,Shettigere,unique,100.0,3,False
+shettihalli,shettihalli,Shettihalli,unique,100.0,1,False
+shetty halli,shetty halli,Shetty Halli,unique,100.0,2,False
+shikaripalya,shikaripalya,Shikaripalya,unique,100.0,8,False
+shingapura,shingapura,Shingapura,unique,100.0,2,False
+shirdi sai layout,shirdi sai layout,Shirdi Sai Layout,unique,100.0,2,False
+shirdi sai nagar,shirdi sai nagar,Shirdi Sai Nagar,unique,100.0,1,False
+shivaji nagar,shivaji nagar,Shivaji Nagar,unique,100.0,13,False
+shivanagar,shivanagar,Shivanagar,unique,100.0,1,False
+shree ananth nagar layout,shree ananth nagar layout,Shree Ananth Nagar Layout,unique,100.0,6,False
+siddapura,siddapura,Siddapura,unique,100.0,6,False
+sidedahalli,sidedahalli,Sidedahalli,unique,100.0,8,False
+silk board,silk board,Silk Board,unique,100.0,5,False
+silver springs layout,silver springs layout,Silver Springs Layout,unique,100.0,4,False
+sindhi colony,sindhi colony,Sindhi Colony,unique,100.0,1,False
+singanayakanahalli,singanayakanahalli,Singanayakanahalli,unique,100.0,3,False
+singapura village,singapura village,Singapura Village,unique,100.0,7,False
+singasandra,singasandra,Singasandra,unique,100.0,25,False
+singena agrahara,singena agrahara,Singena Agrahara,unique,100.0,4,False
+sir m v nagar,sir m v nagar,Sir M V Nagar,unique,100.0,1,False
+sneha colony,sneha colony,Sneha Colony,unique,100.0,2,False
+somanna garden,somanna garden,Somanna Garden,unique,100.0,1,False
+somasundara palya,somasundara palya,Somasundara Palya,unique,100.0,27,False
+someshwara layout,someshwara layout,Someshwara Layout,unique,100.0,2,False
+sompura,sompura,Sompura,unique,100.0,12,False
+sonam layout,sonam layout,Sonam Layout,unique,100.0,1,False
+sonnenahalli,sonnenahalli,Sonnenahalli,unique,100.0,22,False
+soppahalli,soppahalli,Soppahalli,unique,100.0,1,False
+soundarya layout,soundarya layout,Soundarya Layout,unique,100.0,2,False
+sree narayana nagar,sree narayana nagar,Sree Narayana Nagar,unique,100.0,1,False
+sri balaji krupa layout,sri balaji krupa layout,Sri Balaji Krupa Layout,unique,100.0,3,False
+sri kanteshwara nagar,sri kanteshwara nagar,Sri Kanteshwara Nagar,unique,100.0,1,False
+sri sai layout,sri sai layout,Sri Sai Layout,unique,100.0,2,False
+sri venkateshpura layout,sri venkateshpura layout,Sri Venkateshpura Layout,unique,100.0,2,False
+srigandada kaval,srigandada kaval,Srigandada Kaval,unique,100.0,1,False
+srinagar,srinagar,Srinagar,unique,100.0,3,False
+srinivas colony,srinivas colony,Srinivas Colony,unique,100.0,2,False
+srinivasa nagar,srinivasa nagar,Srinivasa Nagar,unique,100.0,6,False
+srirampura,srirampura,Srirampura,unique,100.0,6,False
+srirampuram,srirampuram,Srirampuram,unique,100.0,5,False
+st thomas town,st thomas town,St Thomas Town,unique,100.0,1,False
+st john s road,st john s road,St. John's Road,unique,100.0,2,False
+stage 4 bommanahalli,stage 4 bommanahalli,Stage-4 Bommanahalli,unique,100.0,5,False
+subash nagar,subash nagar,Subash Nagar,unique,100.0,2,False
+subbannaiah palya,subbannaiah palya,Subbannaiah Palya,unique,100.0,1,False
+subhash nagar,subhash nagar,Subhash Nagar,unique,100.0,1,False
+subramanyanagar,subramanyanagar,Subramanyanagar,unique,100.0,1,False
+subramanya nagar,subramanyanagar,Subramanyanagar,whitespace_normalization,100.0,1,False
+subramanyapura,subramanyapura,Subramanyapura,unique,100.0,40,False
+suddaguntepalya,suddaguntepalya,Suddaguntepalya,unique,100.0,4,False
+sugama layout,sugama layout,Sugama Layout,unique,100.0,1,False
+sultan palaya,sultan palaya,Sultan Palaya,unique,100.0,14,False
+sulthangunta,sulthangunta,Sulthangunta,unique,100.0,1,False
+sundar ram shetty nagar,sundar ram shetty nagar,Sundar Ram Shetty Nagar,unique,100.0,1,False
+sundara nagar,sundara nagar,Sundara Nagar,unique,100.0,1,False
+sunder ram shetty nagar,sunder ram shetty nagar,Sunder Ram Shetty Nagar,unique,100.0,2,False
+sunkadakatte,sunkadakatte,Sunkadakatte,unique,100.0,5,False
+sunkan palya,sunkan palya,Sunkan palya,unique,100.0,1,False
+surabhi layout,surabhi layout,Surabhi Layout,unique,100.0,3,False
+suragajakkanahalli,suragajakkanahalli,Suragajakkanahalli,unique,100.0,2,False
+suraksha nagar,suraksha nagar,Suraksha Nagar,unique,100.0,6,False
+suryanagar,suryanagar,Suryanagar,unique,100.0,1,False
+syndicate bank colony,syndicate bank colony,Syndicate Bank Colony,unique,100.0,2,False
+t c palya main road,t c palya main road,T C Palya main Road,unique,100.0,1,False
+t dasarahalli,t dasarahalli,T Dasarahalli,unique,100.0,4,False
+t g extension,t g extension,T G extension,unique,100.0,1,False
+t k reddy layout,t k reddy layout,T K Reddy Layout,unique,100.0,1,False
+t r mill road,t r mill road,T R Mill Road,unique,100.0,1,False
+t c palya,t c palya,T.C PALYA,unique,100.0,6,False
+tc palya,t c palya,T.C PALYA,whitespace_normalization,100.0,4,False
+tc palaya,tc palaya,TC Palaya,unique,100.0,45,False
+tr mill road chamarajpet,tr mill road chamarajpet,"TR Mill Road, Chamarajpet",unique,100.0,1,False
+tala cauvery layout,tala cauvery layout,Tala Cauvery Layout,unique,100.0,4,False
+talaghattapura,talaghattapura,Talaghattapura,unique,100.0,36,False
+tasker town,tasker town,Tasker Town,unique,100.0,3,False
+tata nagar,tata nagar,Tata Nagar,unique,100.0,4,False
+tavarekere,tavarekere,Tavarekere,unique,100.0,4,False
+teachers colony,teachers colony,Teachers Colony,unique,100.0,2,False
+tejaswini nagar,tejaswini nagar,Tejaswini Nagar,unique,100.0,6,False
+telecom layout,telecom layout,Telecom Layout,unique,100.0,3,False
+thanisandra,thanisandra,Thanisandra,unique,100.0,232,False
+thanisandra main road,thanisandra main road,Thanisandra main road,unique,100.0,7,False
+tharabanahalli,tharabanahalli,Tharabanahalli,unique,100.0,1,False
+thavarekere,thavarekere,Thavarekere,unique,100.0,1,False
+thigalarapalya,thigalarapalya,Thigalarapalya,unique,100.0,48,False
+thippasandra,thippasandra,Thippasandra,unique,100.0,3,False
+thirumalashettyhally,thirumalashettyhally,Thirumalashettyhally,unique,100.0,1,False
+thirumenahalli,thirumenahalli,Thirumenahalli,unique,100.0,8,False
+thirupalya,thirupalya,Thirupalya,unique,100.0,1,False
+thomas town,thomas town,Thomas Town,unique,100.0,2,False
+thubarahalli,thubarahalli,Thubarahalli,unique,100.0,22,False
+thurahalli,thurahalli,Thurahalli,unique,100.0,2,False
+thyagaraja nagar,thyagaraja nagar,Thyagaraja Nagar,unique,100.0,11,False
+thyagraj nagar,thyagraj nagar,Thyagraj Nagar,unique,100.0,1,False
+tigalarpalya,tigalarpalya,Tigalarpalya,unique,100.0,2,False
+tilak nagar,tilak nagar,Tilak Nagar,unique,100.0,1,False
+tindlu,tindlu,Tindlu,unique,100.0,11,False
+tippenahalli,tippenahalli,Tippenahalli,unique,100.0,1,False
+tirumanahalli,tirumanahalli,Tirumanahalli,unique,100.0,3,False
+tumkur road,tumkur road,Tumkur Road,unique,100.0,33,False
+tunganagara,tunganagara,Tunganagara,unique,100.0,3,False
+uday nagar,uday nagar,Uday Nagar,unique,100.0,2,False
+udaya nagar,udaya nagar,Udaya Nagar,unique,100.0,4,False
+udayagiri,udayagiri,Udayagiri,unique,100.0,1,False
+udayapur village,udayapur village,Udayapur Village,unique,100.0,4,False
+ullal road,ullal road,Ullal Road,unique,100.0,3,False
+ullal uppanagar,ullal uppanagar,Ullal Uppanagar,unique,100.0,3,False
+ulsoor,ulsoor,Ulsoor,unique,100.0,21,False
+unknown,unknown,Unknown,unique,100.0,1,False
+upadhyaya layout,upadhyaya layout,Upadhyaya Layout,unique,100.0,2,False
+upkar layout,upkar layout,Upkar Layout,unique,100.0,4,False
+uttarahalli,uttarahalli,Uttarahalli,unique,100.0,157,False
+uvce layout,uvce layout,Uvce Layout,unique,100.0,1,False
+v v puram,v v puram,V.V Puram,unique,100.0,2,False
+vgp layout,vgp layout,VGP Layout,unique,100.0,5,False
+vhbcs layout,vhbcs layout,VHBCS Layout,unique,100.0,2,False
+vadarpalya,vadarpalya,Vadarpalya,unique,100.0,3,False
+vaderahalli,vaderahalli,Vaderahalli,unique,100.0,2,False
+vaishnavi layout,vaishnavi layout,Vaishnavi Layout,unique,100.0,4,False
+vajarahalli,vajarahalli,Vajarahalli,unique,100.0,8,False
+varanasi,varanasi,Varanasi,unique,100.0,6,False
+varsova layout,varsova layout,Varsova Layout,unique,100.0,4,False
+varthur,varthur,Varthur,unique,100.0,68,False
+varthur road,varthur road,Varthur Road,unique,100.0,17,False
+vasantapura main road,vasantapura main road,Vasantapura main road,unique,100.0,1,False
+vasanth nagar,vasanth nagar,Vasanth nagar,unique,100.0,8,False
+vasantha vallabha nagar,vasantha vallabha nagar,Vasantha Vallabha Nagar,unique,100.0,5,False
+vasanthapura,vasanthapura,Vasanthapura,unique,100.0,10,False
+vasanthpura,vasanthpura,Vasanthpura,unique,100.0,2,False
+vasatha vallbha nagar,vasatha vallbha nagar,Vasatha Vallbha Nagar,unique,100.0,1,False
+vayunandana layout,vayunandana layout,Vayunandana Layout,unique,100.0,1,False
+veer sandra,veer sandra,Veer Sandra,unique,100.0,2,False
+veersandra,veer sandra,Veer Sandra,whitespace_normalization,100.0,2,False
+veerabhadra nagar,veerabhadra nagar,Veerabhadra Nagar,unique,100.0,1,False
+veerannapalya,veerannapalya,Veerannapalya,unique,100.0,3,False
+venkatadri layout,venkatadri layout,Venkatadri Layout,unique,100.0,3,False
+venkatapura,venkatapura,Venkatapura,unique,100.0,6,False
+venkateshpuram,venkateshpuram,Venkateshpuram,unique,100.0,1,False
+venkateswara nagar,venkateswara nagar,Venkateswara Nagar,unique,100.0,1,False
+venugopal reddy layout,venugopal reddy layout,Venugopal Reddy Layout,unique,100.0,3,False
+versova layout,versova layout,Versova Layout,unique,100.0,2,False
+vibhutipura extension,vibhutipura extension,Vibhutipura Extension,unique,100.0,2,False
+vibuthipura,vibuthipura,Vibuthipura,unique,100.0,2,False
+victoria layout,victoria layout,Victoria Layout,unique,100.0,7,False
+vidhyanagar cross,vidhyanagar cross,Vidhyanagar Cross,unique,100.0,1,False
+vidya nagar,vidya nagar,Vidya Nagar,unique,100.0,1,False
+vidyapeeta,vidyapeeta,Vidyapeeta,unique,100.0,1,False
+vidyaranyapura,vidyaranyapura,Vidyaranyapura,unique,100.0,41,False
+vignana nagar,vignana nagar,Vignana Nagar,unique,100.0,9,False
+vijay nagar,vijay nagar,Vijay Nagar,unique,100.0,1,False
+vijaya bank colony,vijaya bank colony,Vijaya Bank Colony,unique,100.0,1,False
+vijaya bank layout,vijaya bank layout,Vijaya Bank Layout,unique,100.0,7,False
+vijayabank bank layout,vijayabank bank layout,Vijayabank bank layout,unique,100.0,1,False
+vijayanagar,vijayanagar,Vijayanagar,unique,100.0,42,False
+vijaypura,vijaypura,Vijaypura,unique,100.0,1,False
+vijinapura,vijinapura,Vijinapura,unique,100.0,2,False
+vikram nagar,vikram nagar,Vikram Nagar,unique,100.0,1,False
+vimanapura,vimanapura,Vimanapura,unique,100.0,3,False
+vinayak nagar,vinayak nagar,Vinayak Nagar,unique,100.0,3,False
+vinayaka layout,vinayaka layout,Vinayaka Layout,unique,100.0,1,False
+vinayaka nagar,vinayaka nagar,Vinayaka Nagar,unique,100.0,4,False
+vinayakanagar,vinayaka nagar,Vinayaka Nagar,whitespace_normalization,100.0,1,False
+virat nagar,virat nagar,Virat Nagar,unique,100.0,5,False
+virgonagar,virgonagar,Virgonagar,unique,100.0,1,False
+virudhu nagar,virudhu nagar,Virudhu Nagar,unique,100.0,1,False
+virupakshapura,virupakshapura,Virupakshapura,unique,100.0,3,False
+vishveshwarya layout,vishveshwarya layout,Vishveshwarya Layout,unique,100.0,13,False
+vishwanatha nagenahalli,vishwanatha nagenahalli,Vishwanatha Nagenahalli,unique,100.0,9,False
+vishwapriya layout,vishwapriya layout,Vishwapriya Layout,unique,100.0,12,False
+vishwapriya nagar,vishwapriya nagar,Vishwapriya Nagar,unique,100.0,5,False
+viswajit layout,viswajit layout,Viswajit Layout,unique,100.0,1,False
+viswapriyanagar begur road bommanahalli,viswapriyanagar begur road bommanahalli,Viswapriyanagar.begur Road.bommanahalli.,unique,100.0,1,False
+vittal mallya road,vittal mallya road,Vittal Mallya Road,unique,100.0,1,False
+vittal nagar,vittal nagar,Vittal Nagar,unique,100.0,3,False
+vittasandra,vittasandra,Vittasandra,unique,100.0,35,False
+vivek nagar,vivek nagar,Vivek Nagar,unique,100.0,2,False
+viviani road,viviani road,Viviani Road,unique,100.0,1,False
+volagerekallahalli,volagerekallahalli,Volagerekallahalli,unique,100.0,9,False
+vyalikaval,vyalikaval,Vyalikaval,unique,100.0,2,False
+wajid layout thanisandra,wajid layout thanisandra,Wajid layout thanisandra,unique,100.0,1,False
+weavers colony,weavers colony,Weavers Colony,unique,100.0,3,False
+west of chord road,west of chord road,West of Chord Road,unique,100.0,1,False
+wheelers road,wheelers road,Wheelers Road,unique,100.0,1,False
+whietfield,whietfield,"Whietfield,",unique,100.0,1,False
+whitefield,whitefield,Whitefield,unique,100.0,526,False
+whitefield ecc road,whitefield ecc road,Whitefield ECC Road,unique,100.0,1,False
+williams town,williams town,Williams Town,unique,100.0,1,False
+wilson garden,wilson garden,Wilson Garden,unique,100.0,7,False
+xavier layout,xavier layout,Xavier Layout,unique,100.0,1,False
+yarandahalli,yarandahalli,Yarandahalli,unique,100.0,2,False
+yediyur,yediyur,Yediyur,unique,100.0,1,False
+yelachenahalli,yelachenahalli,Yelachenahalli,unique,100.0,20,False
+yelahanka,yelahanka,Yelahanka,unique,100.0,210,False
+yelahanka new town,yelahanka new town,Yelahanka New Town,unique,100.0,41,False
+yelahanka mvit college,yelahanka mvit college,"Yelahanka,MVIT college",unique,100.0,1,False
+yelenahalli,yelenahalli,Yelenahalli,unique,100.0,13,False
+yemlur,yemlur,Yemlur,unique,100.0,9,False
+yemlur old airport road,yemlur old airport road,"Yemlur, Old Airport Road,",unique,100.0,1,False
+yeshwanthpur,yeshwanthpur,Yeshwanthpur,unique,100.0,83,False
+yeshwanthpur industrial suburb,yeshwanthpur industrial suburb,Yeshwanthpur Industrial Suburb,unique,100.0,3,False
+zuzuvadi,zuzuvadi,Zuzuvadi,unique,100.0,1,False
+adigondanhalli,adigondanhalli,adigondanhalli,unique,100.0,1,False
+akshaya nagar t c palya,akshaya nagar t c palya,akshaya nagar t c palya,unique,100.0,1,False
+anjananager magdi road,anjananager magdi road,anjananager magdi road,unique,100.0,1,False
+arudi,arudi,arudi,unique,100.0,1,False
+asha township off hennur road,asha township off hennur road,"asha township, off hennur road",unique,100.0,1,False
+banashankari stage iii sa,banashankari stage iii sa,banashankari stage iii sa,unique,100.0,1,False
+basaveshwarnagar,basaveshwarnagar,basaveshwarnagar,unique,100.0,1,False
+beml layout basaveshwara nagar,beml layout basaveshwara nagar,"beml layout, basaveshwara nagar",unique,100.0,1,False
+bsk 6th stage 2ad block near sri conversation hall,bsk 6th stage 2ad block near sri conversation hall,bsk 6th stage 2ad block near sri conversation hall,unique,100.0,1,False
+elachenahalli,elachenahalli,elachenahalli,unique,100.0,1,False
+kadubisnahalli,kadubisnahalli,kadubisnahalli,unique,100.0,1,False
+kamanahalli main road,kamanahalli main road,kamanahalli main road,unique,100.0,1,False
+kanakapura main road,kanakapura main road,kanakapura main road,unique,100.0,3,False
+kanakapura road,kanakapura road,kanakapura road,unique,100.0,3,False
+kg halli jalhalli west,kg halli jalhalli west,kg halli jalhalli west,unique,100.0,1,False
+manyata,manyata,manyata,unique,100.0,1,False
+manyata park,manyata park,manyata park,unique,100.0,2,False
+manyata tech park,manyata tech park,manyata tech park,unique,100.0,1,False
+mvj engineering college,mvj engineering college,mvj engineering college,unique,100.0,1,False
+near ramanashree california resort,near ramanashree california resort,near Ramanashree California resort,unique,100.0,1,False
+pavitra paradise,pavitra paradise,pavitra paradise,unique,100.0,1,False
+poornaprajna layout,poornaprajna layout,poornaprajna layout,unique,100.0,1,False
+ravindra nagar t dasarahalli peenya,ravindra nagar t dasarahalli peenya,"ravindra nagar, T.dasarahalli peenya",unique,100.0,1,False
+rr nagar,rr nagar,rr nagar,unique,100.0,2,False
+sankeswari,sankeswari,sankeswari,unique,100.0,1,False
+sapthagiri layout,sapthagiri layout,sapthagiri Layout,unique,100.0,1,False
+sarjapura main road,sarjapura main road,sarjapura main road,unique,100.0,1,False
+singapura paradise,singapura paradise,singapura paradise,unique,100.0,1,False
+south,south,south,unique,100.0,2,False
+white field kadugodi,white field kadugodi,"white field,kadugodi",unique,100.0,1,False
+whitefiled,whitefiled,whitefiled,unique,100.0,1,False

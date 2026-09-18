@@ -1,0 +1,222 @@
+{
+  "bengaluru": {
+    "dataset": "Bengaluru_House_Data.csv",
+    "rows": 13320,
+    "cols": 11,
+    "duplicate_rows_full": 529,
+    "price_non_numeric_count": 0,
+    "price_le_zero_count": 0,
+    "bath_gt_bhk_plus_2_count": 16,
+    "fields": {
+      "area_type": {
+        "dtype": "str",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_count": 4
+      },
+      "availability": {
+        "dtype": "str",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_count": 81
+      },
+      "location": {
+        "dtype": "str",
+        "null_count": 1,
+        "null_pct": 0.01,
+        "unique_count": 1305,
+        "raw_unique_count": 1294,
+        "normalized_unique_count": 1271,
+        "collapse_ratio_pct": 1.78
+      },
+      "size": {
+        "dtype": "str",
+        "null_count": 16,
+        "null_pct": 0.12,
+        "unique_count": 31,
+        "distinct_raw_values": [
+          "1 BHK",
+          "1 Bedroom",
+          "1 RK",
+          "10 BHK",
+          "10 Bedroom",
+          "11 BHK",
+          "11 Bedroom",
+          "12 Bedroom",
+          "13 BHK",
+          "14 BHK",
+          "16 BHK",
+          "18 Bedroom",
+          "19 BHK",
+          "2 BHK",
+          "2 Bedroom",
+          "27 BHK",
+          "3 BHK",
+          "3 Bedroom",
+          "4 BHK",
+          "4 Bedroom",
+          "43 Bedroom",
+          "5 BHK",
+          "5 Bedroom",
+          "6 BHK",
+          "6 Bedroom",
+          "7 BHK",
+          "7 Bedroom",
+          "8 BHK",
+          "8 Bedroom",
+          "9 BHK",
+          "9 Bedroom"
+        ],
+        "unparseable_count": 0
+      },
+      "society": {
+        "dtype": "str",
+        "null_count": 5502,
+        "null_pct": 41.31,
+        "unique_count": 2688
+      },
+      "total_sqft": {
+        "dtype": "str",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_count": 2117,
+        "non_numeric_count": 247,
+        "non_numeric_examples": [
+          "2100 - 2850",
+          "3010 - 3410",
+          "2957 - 3450",
+          "3067 - 8156",
+          "1042 - 1105",
+          "1145 - 1340",
+          "1015 - 1540",
+          "1520 - 1740",
+          "34.46Sq. Meter",
+          "1195 - 1440",
+          "1200 - 2400",
+          "4125Perch",
+          "1120 - 1145",
+          "4400 - 6640",
+          "3090 - 5002"
+        ]
+      },
+      "bath": {
+        "dtype": "float64",
+        "null_count": 73,
+        "null_pct": 0.55,
+        "unique_count": 19,
+        "max": 40.0,
+        "min": 1.0
+      },
+      "balcony": {
+        "dtype": "float64",
+        "null_count": 609,
+        "null_pct": 4.57,
+        "unique_count": 4,
+        "max": 3.0,
+        "min": 0.0
+      },
+      "price": {
+        "dtype": "float64",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_count": 1994
+      },
+      "source_city": {
+        "dtype": "str",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_count": 1
+      },
+      "source_dataset": {
+        "dtype": "str",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_count": 1
+      }
+    }
+  },
+  "hyderabad": {
+    "dataset": "Hyderabad.csv",
+    "rows": 2518,
+    "cols": 42,
+    "duplicate_rows_full": 520,
+    "price_le_zero_count": 0,
+    "area_le_zero_count": 0,
+    "fields": {
+      "Price": {
+        "dtype": "int64",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_count": 690
+      },
+      "Area": {
+        "dtype": "int64",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_count": 579
+      },
+      "Location": {
+        "dtype": "str",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_count": 243,
+        "raw_unique_count": 243,
+        "normalized_unique_count": 243
+      },
+      "No. of Bedrooms": {
+        "dtype": "int64",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_count": 7
+      },
+      "Resale": {
+        "dtype": "int64",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_count": 2
+      }
+    }
+  },
+  "chennai": {
+    "dataset": "Chennai.csv",
+    "rows": 5014,
+    "cols": 42,
+    "duplicate_rows_full": 707,
+    "price_le_zero_count": 0,
+    "area_le_zero_count": 0,
+    "fields": {
+      "Price": {
+        "dtype": "int64",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_count": 2058
+      },
+      "Area": {
+        "dtype": "int64",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_count": 1217
+      },
+      "Location": {
+        "dtype": "str",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_count": 185,
+        "raw_unique_count": 185,
+        "normalized_unique_count": 185
+      },
+      "No. of Bedrooms": {
+        "dtype": "int64",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_count": 5
+      },
+      "Resale": {
+        "dtype": "int64",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_count": 2
+      }
+    }
+  }
+}

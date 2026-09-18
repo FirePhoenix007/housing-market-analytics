@@ -1,0 +1,861 @@
+{
+  "dataset_scope": {
+    "total_rows": 12791,
+    "valid_rows_used_for_stats": 12742,
+    "excluded_invalid_rows": 49,
+    "suspicious_rows_retained": 155
+  },
+  "descriptive_stats": {
+    "price_lakhs": {
+      "mean": 113.3,
+      "median": 73.0,
+      "std": 144.4,
+      "min": 8.0,
+      "max": 2912.0,
+      "q1": 50.0,
+      "q3": 120.0,
+      "iqr": 70.0,
+      "n": 12742
+    },
+    "price_per_sqft": {
+      "mean": 6715.51,
+      "median": 5481.67,
+      "std": 4166.43,
+      "min": 500.0,
+      "max": 50000.0,
+      "q1": 4298.57,
+      "q3": 7396.77,
+      "iqr": 3098.19,
+      "n": 12742
+    },
+    "total_sqft_clean": {
+      "mean": 1566.78,
+      "median": 1280.0,
+      "std": 1141.2,
+      "min": 250.0,
+      "max": 36000.0,
+      "q1": 1100.0,
+      "q3": 1690.0,
+      "iqr": 590.0,
+      "n": 12742
+    },
+    "bhk": {
+      "mean": 2.82,
+      "median": 3.0,
+      "std": 1.31,
+      "min": 1.0,
+      "max": 43.0,
+      "q1": 2.0,
+      "q3": 3.0,
+      "iqr": 1.0,
+      "n": 12742
+    },
+    "bath": {
+      "mean": 2.71,
+      "median": 2.0,
+      "std": 1.35,
+      "min": 1.0,
+      "max": 40.0,
+      "q1": 2.0,
+      "q3": 3.0,
+      "iqr": 1.0,
+      "n": 12685
+    }
+  },
+  "outliers_iqr": {
+    "price_lakhs": {
+      "q1": 50.0,
+      "q3": 120.0,
+      "iqr": 70.0,
+      "lower_bound": -55.0,
+      "upper_bound": 225.0,
+      "outlier_count": 1250,
+      "outlier_pct": 9.81
+    },
+    "price_per_sqft": {
+      "q1": 4298.57,
+      "q3": 7396.77,
+      "iqr": 3098.19,
+      "lower_bound": -348.72,
+      "upper_bound": 12044.05,
+      "outlier_count": 1191,
+      "outlier_pct": 9.35
+    },
+    "total_sqft_clean": {
+      "q1": 1100.0,
+      "q3": 1690.0,
+      "iqr": 590.0,
+      "lower_bound": 215.0,
+      "upper_bound": 2575.0,
+      "outlier_count": 1135,
+      "outlier_pct": 8.91
+    }
+  },
+  "outliers_zscore": {
+    "price_lakhs": {
+      "threshold": 3.0,
+      "outlier_count": 210,
+      "outlier_pct": 1.65
+    },
+    "price_per_sqft": {
+      "threshold": 3.0,
+      "outlier_count": 283,
+      "outlier_pct": 2.22
+    }
+  },
+  "correlation": {
+    "n_rows_used": 12160,
+    "pearson": {
+      "price_lakhs": {
+        "price_lakhs": 1.0,
+        "price_per_sqft": 0.672,
+        "total_sqft_clean": 0.64,
+        "bhk": 0.409,
+        "bath": 0.463,
+        "balcony": 0.119
+      },
+      "price_per_sqft": {
+        "price_lakhs": 0.672,
+        "price_per_sqft": 1.0,
+        "total_sqft_clean": 0.174,
+        "bhk": 0.42,
+        "bath": 0.424,
+        "balcony": 0.035
+      },
+      "total_sqft_clean": {
+        "price_lakhs": 0.64,
+        "price_per_sqft": 0.174,
+        "total_sqft_clean": 1.0,
+        "bhk": 0.378,
+        "bath": 0.437,
+        "balcony": 0.155
+      },
+      "bhk": {
+        "price_lakhs": 0.409,
+        "price_per_sqft": 0.42,
+        "total_sqft_clean": 0.378,
+        "bhk": 1.0,
+        "bath": 0.889,
+        "balcony": 0.182
+      },
+      "bath": {
+        "price_lakhs": 0.463,
+        "price_per_sqft": 0.424,
+        "total_sqft_clean": 0.437,
+        "bhk": 0.889,
+        "bath": 1.0,
+        "balcony": 0.198
+      },
+      "balcony": {
+        "price_lakhs": 0.119,
+        "price_per_sqft": 0.035,
+        "total_sqft_clean": 0.155,
+        "bhk": 0.182,
+        "bath": 0.198,
+        "balcony": 1.0
+      }
+    },
+    "spearman": {
+      "price_lakhs": {
+        "price_lakhs": 1.0,
+        "price_per_sqft": 0.816,
+        "total_sqft_clean": 0.736,
+        "bhk": 0.676,
+        "bath": 0.704,
+        "balcony": 0.206
+      },
+      "price_per_sqft": {
+        "price_lakhs": 0.816,
+        "price_per_sqft": 1.0,
+        "total_sqft_clean": 0.281,
+        "bhk": 0.395,
+        "bath": 0.439,
+        "balcony": 0.042
+      },
+      "total_sqft_clean": {
+        "price_lakhs": 0.736,
+        "price_per_sqft": 0.281,
+        "total_sqft_clean": 1.0,
+        "bhk": 0.658,
+        "bath": 0.648,
+        "balcony": 0.308
+      },
+      "bhk": {
+        "price_lakhs": 0.676,
+        "price_per_sqft": 0.395,
+        "total_sqft_clean": 0.658,
+        "bhk": 1.0,
+        "bath": 0.85,
+        "balcony": 0.268
+      },
+      "bath": {
+        "price_lakhs": 0.704,
+        "price_per_sqft": 0.439,
+        "total_sqft_clean": 0.648,
+        "bhk": 0.85,
+        "bath": 1.0,
+        "balcony": 0.289
+      },
+      "balcony": {
+        "price_lakhs": 0.206,
+        "price_per_sqft": 0.042,
+        "total_sqft_clean": 0.308,
+        "bhk": 0.268,
+        "bath": 0.289,
+        "balcony": 1.0
+      }
+    },
+    "note": "Correlation measures association, not causation. price_per_sqft is derived from price and total_sqft_clean, so its correlation with either is structural, not an independent finding."
+  },
+  "business_questions": {
+    "q1_top_localities_by_median_price_per_sqft": [
+      {
+        "Locality": "HAL 2nd Stage",
+        "Listings": 11,
+        "Median Rs per sqft": 24166.666666666668
+      },
+      {
+        "Locality": "Cunningham Road",
+        "Listings": 13,
+        "Median Rs per sqft": 19479.24823805795
+      },
+      {
+        "Locality": "Sadashiva Nagar",
+        "Listings": 10,
+        "Median Rs per sqft": 17689.70334078859
+      },
+      {
+        "Locality": "Giri Nagar",
+        "Listings": 14,
+        "Median Rs per sqft": 16287.878787878788
+      },
+      {
+        "Locality": "2nd Stage Nagarbhavi",
+        "Listings": 20,
+        "Median Rs per sqft": 16250.0
+      },
+      {
+        "Locality": "Benson Town",
+        "Listings": 15,
+        "Median Rs per sqft": 14573.991031390136
+      },
+      {
+        "Locality": "BTM 1st Stage",
+        "Listings": 10,
+        "Median Rs per sqft": 14166.666666666668
+      },
+      {
+        "Locality": "Rajaji Nagar",
+        "Listings": 107,
+        "Median Rs per sqft": 13963.414634146342
+      },
+      {
+        "Locality": "Mahalakshmi Layout",
+        "Listings": 13,
+        "Median Rs per sqft": 13333.333333333334
+      },
+      {
+        "Locality": "Thyagaraja Nagar",
+        "Listings": 10,
+        "Median Rs per sqft": 13267.543859649122
+      }
+    ],
+    "q2_high_volume_low_price_localities": {
+      "volume_cutoff_listings": 42.0,
+      "localities": [
+        {
+          "Locality": "Chandapura",
+          "Listings": 82,
+          "Median Rs per sqft": 2707.386759581881
+        },
+        {
+          "Locality": "Electronic City Phase II",
+          "Listings": 128,
+          "Median Rs per sqft": 3000.0
+        },
+        {
+          "Locality": "Begur Road",
+          "Listings": 74,
+          "Median Rs per sqft": 3707.744883727831
+        },
+        {
+          "Locality": "Sarjapur",
+          "Listings": 82,
+          "Median Rs per sqft": 3782.281716105245
+        },
+        {
+          "Locality": "Bisuvanahalli",
+          "Listings": 42,
+          "Median Rs per sqft": 3901.8152642663727
+        },
+        {
+          "Locality": "Uttarahalli",
+          "Listings": 157,
+          "Median Rs per sqft": 4119.3442622950815
+        },
+        {
+          "Locality": "Raja Rajeshwari Nagar",
+          "Listings": 164,
+          "Median Rs per sqft": 4246.212121212121
+        },
+        {
+          "Locality": "Kaggadasapura",
+          "Listings": 64,
+          "Median Rs per sqft": 4246.303642264695
+        },
+        {
+          "Locality": "Kengeri",
+          "Listings": 73,
+          "Median Rs per sqft": 4269.972451790633
+        },
+        {
+          "Locality": "KR Puram",
+          "Listings": 91,
+          "Median Rs per sqft": 4347.826086956522
+        }
+      ]
+    },
+    "q3_price_by_bhk": [
+      {
+        "bhk_category": "1 BHK",
+        "listings": 630,
+        "median_price_lakhs": 34.5975,
+        "median_price_per_sqft": 5070.107108081792
+      },
+      {
+        "bhk_category": "2 BHK",
+        "listings": 5241,
+        "median_price_lakhs": 54.0,
+        "median_price_per_sqft": 4837.209302325581
+      },
+      {
+        "bhk_category": "3 BHK",
+        "listings": 4649,
+        "median_price_lakhs": 90.0,
+        "median_price_per_sqft": 5631.995133819952
+      },
+      {
+        "bhk_category": "4 BHK",
+        "listings": 1392,
+        "median_price_lakhs": 204.0,
+        "median_price_per_sqft": 8648.889698724988
+      },
+      {
+        "bhk_category": "5+ BHK",
+        "listings": 830,
+        "median_price_lakhs": 165.0,
+        "median_price_per_sqft": 11250.0
+      }
+    ],
+    "q4_dominant_size_bucket_per_tier": [
+      {
+        "locality_tier": "Insufficient data (<10 listings)",
+        "size_bucket": "1000-1500 sqft",
+        "count": 1261
+      },
+      {
+        "locality_tier": "Tier 1 - Premium",
+        "size_bucket": "1000-1500 sqft",
+        "count": 940
+      },
+      {
+        "locality_tier": "Tier 2 - Mid-market",
+        "size_bucket": "1000-1500 sqft",
+        "count": 2286
+      },
+      {
+        "locality_tier": "Tier 3 - Value",
+        "size_bucket": "1000-1500 sqft",
+        "count": 1895
+      }
+    ],
+    "q5_large_properties_low_price_per_sqft": [
+      {
+        "locality_standard": "Uttarahalli",
+        "listings": 3,
+        "median_price_per_sqft": 3333.3333333333335
+      },
+      {
+        "locality_standard": "Kattigenahalli",
+        "listings": 3,
+        "median_price_per_sqft": 3414.6341463414633
+      },
+      {
+        "locality_standard": "Singasandra",
+        "listings": 3,
+        "median_price_per_sqft": 3838.7715930902114
+      },
+      {
+        "locality_standard": "Banashankari Stage VI",
+        "listings": 3,
+        "median_price_per_sqft": 3958.3333333333335
+      },
+      {
+        "locality_standard": "Chikka Tirupathi",
+        "listings": 10,
+        "median_price_per_sqft": 3988.8837889205356
+      },
+      {
+        "locality_standard": "Nagasandra",
+        "listings": 3,
+        "median_price_per_sqft": 4000.0
+      },
+      {
+        "locality_standard": "5th Phase JP Nagar",
+        "listings": 3,
+        "median_price_per_sqft": 4250.0
+      },
+      {
+        "locality_standard": "Channasandra",
+        "listings": 3,
+        "median_price_per_sqft": 4285.714285714285
+      },
+      {
+        "locality_standard": "Ramamurthy Nagar",
+        "listings": 5,
+        "median_price_per_sqft": 4285.714285714285
+      },
+      {
+        "locality_standard": "Kadugodi",
+        "listings": 5,
+        "median_price_per_sqft": 4466.666666666667
+      }
+    ],
+    "q6_statistically_expensive_localities": [
+      {
+        "locality_standard": "Raja Rajeshwari Nagar",
+        "bhk_category": "4 BHK",
+        "size_bucket": "1000-1500 sqft",
+        "locality_tier": "Tier 3 - Value",
+        "listings": 5,
+        "locality_median": 25185.185185185186,
+        "group_median": 9166.666666666666,
+        "pct_diff_vs_comparable_group": 174.7
+      },
+      {
+        "locality_standard": "Nagarbhavi",
+        "bhk_category": "3 BHK",
+        "size_bucket": "1000-1500 sqft",
+        "locality_tier": "Tier 1 - Premium",
+        "listings": 11,
+        "locality_median": 16666.666666666668,
+        "group_median": 6545.454545454545,
+        "pct_diff_vs_comparable_group": 154.6
+      },
+      {
+        "locality_standard": "Malleshwaram",
+        "bhk_category": "4 BHK",
+        "size_bucket": "2500+ sqft",
+        "locality_tier": "Tier 1 - Premium",
+        "listings": 7,
+        "locality_median": 21538.46153846154,
+        "group_median": 9328.358208955224,
+        "pct_diff_vs_comparable_group": 130.9
+      },
+      {
+        "locality_standard": "Hennur Road",
+        "bhk_category": "4 BHK",
+        "size_bucket": "1500-2500 sqft",
+        "locality_tier": "Tier 2 - Mid-market",
+        "listings": 5,
+        "locality_median": 16250.0,
+        "group_median": 7160.484736086111,
+        "pct_diff_vs_comparable_group": 126.9
+      },
+      {
+        "locality_standard": "Kodihalli",
+        "bhk_category": "4 BHK",
+        "size_bucket": "2500+ sqft",
+        "locality_tier": "Tier 1 - Premium",
+        "listings": 7,
+        "locality_median": 20329.358319136853,
+        "group_median": 9328.358208955224,
+        "pct_diff_vs_comparable_group": 117.9
+      },
+      {
+        "locality_standard": "Karuna Nagar",
+        "bhk_category": "3 BHK",
+        "size_bucket": "1000-1500 sqft",
+        "locality_tier": "Tier 1 - Premium",
+        "listings": 5,
+        "locality_median": 13076.923076923076,
+        "group_median": 6545.454545454545,
+        "pct_diff_vs_comparable_group": 99.8
+      },
+      {
+        "locality_standard": "Cambridge Layout",
+        "bhk_category": "3 BHK",
+        "size_bucket": "1500-2500 sqft",
+        "locality_tier": "Insufficient data (<10 listings)",
+        "listings": 5,
+        "locality_median": 11794.871794871795,
+        "group_median": 6000.0,
+        "pct_diff_vs_comparable_group": 96.6
+      },
+      {
+        "locality_standard": "Rajaji Nagar",
+        "bhk_category": "3 BHK",
+        "size_bucket": "1500-2500 sqft",
+        "locality_tier": "Tier 1 - Premium",
+        "listings": 37,
+        "locality_median": 13963.414634146342,
+        "group_median": 7480.694980694981,
+        "pct_diff_vs_comparable_group": 86.7
+      },
+      {
+        "locality_standard": "Cunningham Road",
+        "bhk_category": "3 BHK",
+        "size_bucket": "2500+ sqft",
+        "locality_tier": "Tier 1 - Premium",
+        "listings": 8,
+        "locality_median": 19314.548361310954,
+        "group_median": 10400.0,
+        "pct_diff_vs_comparable_group": 85.7
+      },
+      {
+        "locality_standard": "Rajaji Nagar",
+        "bhk_category": "5+ BHK",
+        "size_bucket": "2500+ sqft",
+        "locality_tier": "Tier 1 - Premium",
+        "listings": 8,
+        "locality_median": 16250.0,
+        "group_median": 8858.267716535433,
+        "pct_diff_vs_comparable_group": 83.4
+      }
+    ],
+    "q7_value_opportunity_localities": [
+      {
+        "locality_standard": "Chandapura",
+        "bhk_category": "1 BHK",
+        "size_bucket": "500-1000 sqft",
+        "locality_tier": "Tier 3 - Value",
+        "listings": 10,
+        "locality_median": 2550.3875968992247,
+        "group_median": 4313.725490196079,
+        "pct_diff_vs_comparable_group": -40.9
+      },
+      {
+        "locality_standard": "TC Palaya",
+        "bhk_category": "5+ BHK",
+        "size_bucket": "1000-1500 sqft",
+        "locality_tier": "Tier 2 - Mid-market",
+        "listings": 5,
+        "locality_median": 6928.571428571428,
+        "group_median": 11428.57142857143,
+        "pct_diff_vs_comparable_group": -39.4
+      },
+      {
+        "locality_standard": "Rajiv Nagar",
+        "bhk_category": "4 BHK",
+        "size_bucket": "1500-2500 sqft",
+        "locality_tier": "Tier 1 - Premium",
+        "listings": 5,
+        "locality_median": 6324.786324786325,
+        "group_median": 10000.0,
+        "pct_diff_vs_comparable_group": -36.8
+      },
+      {
+        "locality_standard": "Nagarbhavi",
+        "bhk_category": "3 BHK",
+        "size_bucket": "1500-2500 sqft",
+        "locality_tier": "Tier 1 - Premium",
+        "listings": 12,
+        "locality_median": 4783.783783783783,
+        "group_median": 7480.694980694981,
+        "pct_diff_vs_comparable_group": -36.1
+      },
+      {
+        "locality_standard": "Chandapura",
+        "bhk_category": "2 BHK",
+        "size_bucket": "1000-1500 sqft",
+        "locality_tier": "Tier 3 - Value",
+        "listings": 14,
+        "locality_median": 2700.487804878049,
+        "group_median": 4095.563139931741,
+        "pct_diff_vs_comparable_group": -34.1
+      },
+      {
+        "locality_standard": "Chandapura",
+        "bhk_category": "3 BHK",
+        "size_bucket": "1000-1500 sqft",
+        "locality_tier": "Tier 3 - Value",
+        "listings": 23,
+        "locality_median": 2700.0,
+        "group_median": 4084.507042253521,
+        "pct_diff_vs_comparable_group": -33.9
+      },
+      {
+        "locality_standard": "Suraksha Nagar",
+        "bhk_category": "3 BHK",
+        "size_bucket": "1500-2500 sqft",
+        "locality_tier": "Insufficient data (<10 listings)",
+        "listings": 5,
+        "locality_median": 3976.9082745349583,
+        "group_median": 6000.0,
+        "pct_diff_vs_comparable_group": -33.7
+      },
+      {
+        "locality_standard": "Banashankari Stage V",
+        "bhk_category": "3 BHK",
+        "size_bucket": "1500-2500 sqft",
+        "locality_tier": "Tier 3 - Value",
+        "listings": 5,
+        "locality_median": 3150.306748466258,
+        "group_median": 4702.194357366771,
+        "pct_diff_vs_comparable_group": -33.0
+      },
+      {
+        "locality_standard": "Volagerekallahalli",
+        "bhk_category": "2 BHK",
+        "size_bucket": "1000-1500 sqft",
+        "locality_tier": "Insufficient data (<10 listings)",
+        "listings": 9,
+        "locality_median": 3185.5670103092784,
+        "group_median": 4741.379310344828,
+        "pct_diff_vs_comparable_group": -32.8
+      },
+      {
+        "locality_standard": "Vidyaranyapura",
+        "bhk_category": "5+ BHK",
+        "size_bucket": "1000-1500 sqft",
+        "locality_tier": "Tier 1 - Premium",
+        "listings": 7,
+        "locality_median": 11583.333333333334,
+        "group_median": 16666.666666666668,
+        "pct_diff_vs_comparable_group": -30.5
+      }
+    ],
+    "q6_q7_methodology": "A locality is only compared against peers sharing the same BHK category, size bucket AND locality tier (min 5 listings per locality within that comparable group). pct_diff_vs_comparable_group is the locality's median Rs/sqft vs. the comparable group's median. This avoids the trivial/incorrect claim that a locality is 'cheap' just because its raw price is low (it may simply have smaller, lower-tier listings)."
+  },
+  "mispriced_listings": {
+    "methodology": "Comparable group = same locality + BHK category + size bucket, min 5 listings. expected_price_per_sqft = group median. Listings deviating >= 30% from their group's expected price are flagged as POTENTIALLY mispriced (below = possible bargain/data issue, above = possible premium/data issue) - not definitively mispriced.",
+    "threshold_pct": 30,
+    "comparable_universe_n": 7778,
+    "flagged_below_count": 513,
+    "flagged_above_count": 850,
+    "examples_below_expected": [
+      {
+        "locality_standard": "BTM Layout",
+        "bhk_category": "3 BHK",
+        "size_bucket": "1500-2500 sqft",
+        "total_sqft_clean": 1797.5712999999998,
+        "price_lakhs": 10.0,
+        "price_per_sqft": 556.3061671044704,
+        "expected_price_per_sqft": 5064.935064935065,
+        "pct_deviation": -89.0,
+        "comparable_group_n": 5
+      },
+      {
+        "locality_standard": "Hegde Nagar",
+        "bhk_category": "4 BHK",
+        "size_bucket": "2500+ sqft",
+        "total_sqft_clean": 2600.0,
+        "price_lakhs": 40.0,
+        "price_per_sqft": 1538.4615384615386,
+        "expected_price_per_sqft": 10000.0,
+        "pct_deviation": -84.6,
+        "comparable_group_n": 5
+      },
+      {
+        "locality_standard": "JP Nagar",
+        "bhk_category": "3 BHK",
+        "size_bucket": "2500+ sqft",
+        "total_sqft_clean": 20000.0,
+        "price_lakhs": 175.0,
+        "price_per_sqft": 875.0,
+        "expected_price_per_sqft": 5400.0,
+        "pct_deviation": -83.8,
+        "comparable_group_n": 5
+      },
+      {
+        "locality_standard": "Karuna Nagar",
+        "bhk_category": "3 BHK",
+        "size_bucket": "1000-1500 sqft",
+        "total_sqft_clean": 1200.0,
+        "price_lakhs": 34.0,
+        "price_per_sqft": 2833.3333333333335,
+        "expected_price_per_sqft": 13076.923076923076,
+        "pct_deviation": -78.3,
+        "comparable_group_n": 5
+      },
+      {
+        "locality_standard": "Nagarbhavi",
+        "bhk_category": "3 BHK",
+        "size_bucket": "1000-1500 sqft",
+        "total_sqft_clean": 1350.0,
+        "price_lakhs": 54.6,
+        "price_per_sqft": 4044.4444444444443,
+        "expected_price_per_sqft": 16666.666666666668,
+        "pct_deviation": -75.7,
+        "comparable_group_n": 11
+      },
+      {
+        "locality_standard": "JP Nagar",
+        "bhk_category": "2 BHK",
+        "size_bucket": "1000-1500 sqft",
+        "total_sqft_clean": 1100.0,
+        "price_lakhs": 15.0,
+        "price_per_sqft": 1363.6363636363637,
+        "expected_price_per_sqft": 5149.051490514905,
+        "pct_deviation": -73.5,
+        "comparable_group_n": 25
+      },
+      {
+        "locality_standard": "Nagarbhavi",
+        "bhk_category": "3 BHK",
+        "size_bucket": "1000-1500 sqft",
+        "total_sqft_clean": 1350.0,
+        "price_lakhs": 60.0,
+        "price_per_sqft": 4444.444444444444,
+        "expected_price_per_sqft": 16666.666666666668,
+        "pct_deviation": -73.3,
+        "comparable_group_n": 11
+      },
+      {
+        "locality_standard": "Hennur Road",
+        "bhk_category": "4 BHK",
+        "size_bucket": "1500-2500 sqft",
+        "total_sqft_clean": 2000.0,
+        "price_lakhs": 90.0,
+        "price_per_sqft": 4500.0,
+        "expected_price_per_sqft": 16250.0,
+        "pct_deviation": -72.3,
+        "comparable_group_n": 5
+      },
+      {
+        "locality_standard": "Hosakerehalli",
+        "bhk_category": "3 BHK",
+        "size_bucket": "1500-2500 sqft",
+        "total_sqft_clean": 1590.0,
+        "price_lakhs": 49.0,
+        "price_per_sqft": 3081.761006289308,
+        "expected_price_per_sqft": 9990.021179537309,
+        "pct_deviation": -69.2,
+        "comparable_group_n": 12
+      },
+      {
+        "locality_standard": "R.T. Nagar",
+        "bhk_category": "3 BHK",
+        "size_bucket": "1000-1500 sqft",
+        "total_sqft_clean": 1380.0,
+        "price_lakhs": 50.0,
+        "price_per_sqft": 3623.1884057971015,
+        "expected_price_per_sqft": 11153.846153846154,
+        "pct_deviation": -67.5,
+        "comparable_group_n": 5
+      }
+    ],
+    "examples_above_expected": [
+      {
+        "locality_standard": "Whitefield",
+        "bhk_category": "3 BHK",
+        "size_bucket": "1000-1500 sqft",
+        "total_sqft_clean": 1496.0,
+        "price_lakhs": 718.0,
+        "price_per_sqft": 47994.65240641711,
+        "expected_price_per_sqft": 4377.104377104377,
+        "pct_deviation": 996.5,
+        "comparable_group_n": 49
+      },
+      {
+        "locality_standard": "Electronic City",
+        "bhk_category": "4 BHK",
+        "size_bucket": "1500-2500 sqft",
+        "total_sqft_clean": 1800.0,
+        "price_lakhs": 700.0,
+        "price_per_sqft": 38888.88888888889,
+        "expected_price_per_sqft": 6201.1466794075495,
+        "pct_deviation": 527.1,
+        "comparable_group_n": 6
+      },
+      {
+        "locality_standard": "Banashankari Stage V",
+        "bhk_category": "3 BHK",
+        "size_bucket": "1000-1500 sqft",
+        "total_sqft_clean": 1200.0,
+        "price_lakhs": 240.0,
+        "price_per_sqft": 20000.0,
+        "expected_price_per_sqft": 4500.0,
+        "pct_deviation": 344.4,
+        "comparable_group_n": 5
+      },
+      {
+        "locality_standard": "Poorna Pragna Layout",
+        "bhk_category": "3 BHK",
+        "size_bucket": "1000-1500 sqft",
+        "total_sqft_clean": 1400.0,
+        "price_lakhs": 240.0,
+        "price_per_sqft": 17142.85714285714,
+        "expected_price_per_sqft": 3999.322033898305,
+        "pct_deviation": 328.6,
+        "comparable_group_n": 7
+      },
+      {
+        "locality_standard": "KR Puram",
+        "bhk_category": "2 BHK",
+        "size_bucket": "500-1000 sqft",
+        "total_sqft_clean": 800.0,
+        "price_lakhs": 130.0,
+        "price_per_sqft": 16250.0,
+        "expected_price_per_sqft": 4199.565960197628,
+        "pct_deviation": 286.9,
+        "comparable_group_n": 7
+      },
+      {
+        "locality_standard": "Sector 1 HSR Layout",
+        "bhk_category": "3 BHK",
+        "size_bucket": "1500-2500 sqft",
+        "total_sqft_clean": 2400.0,
+        "price_lakhs": 775.0,
+        "price_per_sqft": 32291.666666666668,
+        "expected_price_per_sqft": 8369.384459654873,
+        "pct_deviation": 285.8,
+        "comparable_group_n": 6
+      },
+      {
+        "locality_standard": "Ramamurthy Nagar",
+        "bhk_category": "3 BHK",
+        "size_bucket": "1000-1500 sqft",
+        "total_sqft_clean": 1400.0,
+        "price_lakhs": 200.0,
+        "price_per_sqft": 14285.714285714286,
+        "expected_price_per_sqft": 4050.0,
+        "pct_deviation": 252.7,
+        "comparable_group_n": 10
+      },
+      {
+        "locality_standard": "Pai Layout",
+        "bhk_category": "2 BHK",
+        "size_bucket": "1000-1500 sqft",
+        "total_sqft_clean": 1150.0,
+        "price_lakhs": 170.0,
+        "price_per_sqft": 14782.608695652174,
+        "expected_price_per_sqft": 4200.0,
+        "pct_deviation": 252.0,
+        "comparable_group_n": 11
+      },
+      {
+        "locality_standard": "Whitefield",
+        "bhk_category": "5+ BHK",
+        "size_bucket": "2500+ sqft",
+        "total_sqft_clean": 3250.0,
+        "price_lakhs": 900.0,
+        "price_per_sqft": 27692.30769230769,
+        "expected_price_per_sqft": 8923.076923076924,
+        "pct_deviation": 210.3,
+        "comparable_group_n": 7
+      },
+      {
+        "locality_standard": "KR Puram",
+        "bhk_category": "5+ BHK",
+        "size_bucket": "2500+ sqft",
+        "total_sqft_clean": 4166.0,
+        "price_lakhs": 560.0,
+        "price_per_sqft": 13442.150744119059,
+        "expected_price_per_sqft": 4347.826086956522,
+        "pct_deviation": 209.2,
+        "comparable_group_n": 7
+      }
+    ]
+  }
+}

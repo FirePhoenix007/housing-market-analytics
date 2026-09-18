@@ -1,0 +1,8 @@
+{
+  "min_listings_for_tier": 10,
+  "tier_1_threshold_rs_per_sqft": 6088.62,
+  "tier_2_threshold_rs_per_sqft": 4991.39,
+  "localities_ranked": 253,
+  "localities_insufficient_data": 998,
+  "methodology": "Localities with >= 10 valid listings are ranked by median price/sqft. Tier boundaries are the 33rd and 67th percentiles of that median across ranked localities (terciles), not arbitrary cutoffs. Localities below the listing threshold are marked 'Insufficient data' rather than force-tiered, since a median of <10 listings is not statistically reliable."
+}
