@@ -1,132 +1,63 @@
-# Bengaluru / Hyderabad Housing Market Intelligence Dashboard
+# Bengaluru / Hyderabad Housing Market Analysis
 
-An end-to-end data analytics project: raw Kaggle CSVs -> data-quality audit -> documented cleaning ->
-Delta Lake analytics table -> statistical analysis -> executive insight memo -> Tableau dashboard spec.
-Every number in `reports/` and `reports/insight_memo.md` is computed from the real datasets — nothing
-is estimated or fabricated (see `docs/methodology.md` for the full audit trail).
+A project that takes messy, real housing listing data and turns it into a clean dataset, a set of findings, and a Tableau dashboard. Every number here comes from the real data — nothing is guessed or made up (see `docs/methodology.md` for how each step works).
 
-## 1. Project Overview
+## What this is
 
-Bengaluru's residential real-estate listings are notoriously messy — inconsistent locality spelling,
-mixed area-unit formats, and no reliable ground truth for "is this locality expensive." This project
-builds a reproducible pipeline that cleans that mess with documented, defensible rules, segments
-localities into tiers using actual price distributions (not guesswork), and answers seven concrete
-business questions with a comparable-group methodology that avoids the common mistake of calling a
-locality "cheap" just because its raw price is low.
+Bengaluru's housing listings are messy. The same area is spelled a dozen different ways, floor sizes are recorded in five or more different units, and there's no simple way to tell if a price is actually high or low for its area. This project cleans that up properly and uses the clean data to answer real questions: which areas are expensive, how price changes with size and BHK, and which listings look mispriced compared to similar homes nearby.
 
-## 2. Business Problem
+## What I did
 
-Buyers, sellers and analysts need locality-level price benchmarks, but the raw data can't be queried
-directly: `location` has 1,294 raw spellings for far fewer real places, `total_sqft` mixes 5+ formats,
-and there is no locality tier or comparable-group framework to judge whether a price is actually high
-or low for its context.
+1. Checked the raw data for problems first, before changing anything.
+2. Cleaned it without deleting rows — every row keeps a flag saying whether it's Valid, Suspicious, or Invalid, so nothing is silently thrown away.
+3. Split areas into price tiers based on actual prices, not guesswork.
+4. Answered the main business questions by comparing each listing to *similar* listings (same size, same BHK, same tier) instead of just comparing raw prices across very different homes.
+5. Wrote the cleaning step twice — once in Python, once in plain SQL — and checked that both give the same result.
+6. Built a 5-dashboard Tableau workbook from the cleaned data.
 
-## 3. Objectives
+## The data
 
-1. Quantify and document every data-quality issue before touching the data.
-2. Clean without silently deleting — every record keeps a `quality_flag`.
-3. Build a statistically-derived locality tier segmentation (not arbitrary).
-4. Answer 7 business questions with a comparable-group methodology.
-5. Ship a Databricks/Delta pipeline, 10 SQL queries, and a Tableau dashboard spec.
-6. Produce a 1-page insight memo where every number traces back to `reports/analysis_results.json`.
+- [Bengaluru House Price Data](https://www.kaggle.com/datasets/amitabhajoy/bengaluru-house-price-data) (Kaggle) — 13,320 real listings, the main dataset
+- [Housing Prices in Metropolitan Areas of India](https://www.kaggle.com/datasets/ruchi798/housing-prices-in-metropolitan-areas-of-india) (Kaggle) — Hyderabad and Chennai, used only to compare across cities
 
-## 4. Dataset
+See `data/README.md` for exact download steps.
 
-- [Bengaluru House Price Data](https://www.kaggle.com/datasets/amitabhajoy/bengaluru-house-price-data) (Kaggle) — 13,320 rows, primary analysis
-- [Housing Prices in Metropolitan Areas of India](https://www.kaggle.com/datasets/ruchi798/housing-prices-in-metropolitan-areas-of-india) (Kaggle) — Hyderabad (2,518 rows) and Chennai (5,014 rows) used for metropolitan comparison
+## Tools used
 
-See `data/README.md` for exact download commands and file layout.
+Python (pandas, NumPy, SciPy, rapidfuzz), SQL, Databricks + Delta Lake (optional path), Tableau, matplotlib/seaborn.
 
-## 5. Technology Stack
+## Cleaning the data
 
-Python (Pandas, NumPy, SciPy, rapidfuzz), SQL (Databricks SQL / Spark SQL), Databricks + Delta Lake,
-Tableau Public, Matplotlib/Seaborn, Git.
+The raw file has real problems, not textbook ones:
 
-## 6. Architecture
+- **Floor size** (`total_sqft`) comes as plain numbers, ranges like `"1000 - 1200"`, and units like Sq. Meter, Sq. Yards, Acres, Cents, Guntha, Grounds, and Perch. All of these get converted to one plain sqft number, with the method used recorded per row.
+- **Area names** have 1,294 raw spellings for far fewer real places. Spelling and punctuation differences are merged automatically — `"White Field"` and `"Whitefield"` become one area. Look-alike names that *might* just be typos, like `"HBR Layout"` vs `"HSR Layout"`, are **not** merged automatically — a script can't safely tell a typo from two genuinely different places (both score the same on a similarity test). Those 139 candidates are written to a report for a human to check instead of being guessed at.
+- **Nothing is deleted.** Every row keeps a `quality_flag` — Valid, Suspicious, or Invalid — and later analysis decides what to include.
 
-```
-raw (CSV as downloaded)
-  -> staging (typed: total_sqft parsed, bhk extracted, price_per_sqft derived)
-    -> cleaned (locality standardized, quality_flag assigned — nothing deleted)
-      -> analytics: housing_cleaned Delta table (+ bhk_category, size_bucket, locality_tier)
-        -> SQL (sql/*.sql) + Tableau (dashboard/tableau/)
-```
+This cleaning step is written twice, on purpose: once in Python (`notebooks/02_data_cleaning.py`) and once in plain SQL (`sql/00_data_cleaning.sql`). I ran both against the same raw file and checked the outputs match — same row count, same quality-flag counts, same BHK and size-bucket counts, same totals. The one small difference: in about 8 of the 1,257 areas, the two pick a different capitalization for the display name when two spellings occur equally often (a tie-break difference, not a different grouping — it doesn't change any number).
 
-Implemented twice: locally in pandas (`notebooks/01`-`06`, run and validated against the real data —
-every number in this README came from these runs) and as a PySpark/Delta port
-(`notebooks/databricks_etl_notebook.py`) for Databricks Community Edition.
+## What I found
 
-## 7. Data-Cleaning Methodology (summary — full detail in `docs/methodology.md`)
+- **HAL 2nd Stage** is the most expensive area by a wide margin — Rs 24,167 per sqft (based on 11 listings), about 4.4x the city's median of Rs 5,482.
+- Price jumps sharply at 4 BHK. Oddly, 5+ BHK homes cost *more* per sqft but *less* in total than 4 BHK homes — so it's not a simple "more rooms = more expensive" pattern.
+- Comparing each listing only to similar homes nearby (same BHK, size, and tier) flags **Chandapura** as priced about 41% below its true peers — a specific, checkable lead, not a blanket "cheap area" claim.
+- About 1 in 10 listings (1,191 of 12,742 valid ones) look like statistical outliers on price per sqft. A separate check against similar homes flags 513 as possibly under-priced and 850 as possibly over-priced.
 
-- **`total_sqft`**: plain numbers kept; ranges converted to midpoint; Sq.Meter/Sq.Yards/Acres/Cents/
-  Guntha/Grounds/Perch converted to sqft via documented factors.
-- **Locality standardization**: whitespace/case/punctuation variants auto-merged (1,271 -> 1,257
-  standardized localities). Fuzzy typo-correction was tested and **deliberately not auto-applied** —
-  on this data, similarity scores can't separate real typos ("whietfield"/"whitefield", ratio 90) from
-  genuinely different places ("HBR Layout"/"HSR Layout", also ratio 90). All 139 fuzzy candidates are
-  logged in `reports/locality_mapping_bengaluru.csv` for manual review instead.
-- **`quality_flag`**: `Invalid` (missing core fields, or price/sqft outside a Rs 500-50,000/sqft
-  plausibility band — this band caught 49 unit-conversion errors, e.g. a "2 BHK" parsed to 1.3M sqft
-  from a mis-recorded Acres value), `Suspicious` (bath/BHK mismatch, implausible sqft-per-BHK), `Valid`.
+Full write-up, with the reasoning behind each number: [`reports/insight_memo.pdf`](reports/insight_memo.pdf).
 
-## 8. Feature Engineering
-
-`bhk_category` (1/2/3/4/5+ BHK), `size_bucket` (5 bands from <500 to 2500+ sqft), `price_per_sqft`,
-`locality_tier` (see below). No `age_bucket` was invented — neither source dataset has a
-construction-year field.
-
-## 9. Statistical Methodology
-
-Descriptive stats (mean/median/std/IQR) on price, price/sqft, sqft, BHK, bath. IQR outlier detection
-(`Q1 - 1.5*IQR` / `Q3 + 1.5*IQR`) and z-score (|z|>3) computed independently. Pearson **and** Spearman
-correlation reported side by side — Pearson between price and sqft was a meaningless 0.049 before the
-price/sqft plausibility filter (a few extreme unit-conversion errors dominate a mean-based statistic)
-and 0.64 after, consistent with Spearman's outlier-robust 0.736 both times. **Locality tiers** are
-built from terciles of median price/sqft among localities with >= 10 listings (see
-`reports/locality_tier_methodology.json`). "Value opportunity" and "statistically expensive" localities
-are found by comparing each locality only to peers sharing the same BHK category, size bucket **and**
-locality tier (min 5 listings) — never by comparing raw prices across different tiers.
-
-## 10. Key Findings (numbers from `reports/insight_memo.md` / `reports/analysis_results.json`)
-
-1. **HAL 2nd Stage** has the highest verified median price/sqft (Rs 24,167, n=11) — 4.4x the city
-   median of Rs 5,482/sqft.
-2. Price steps up sharply at 4 BHK (median Rs 204.0L vs Rs 90.0L for 3 BHK); 5+ BHK carries the
-   *highest* Rs/sqft (Rs 11,250) but a *lower* median price (Rs 165.0L) than 4 BHK — not a simple
-   "more rooms = more expensive" curve.
-3. Comparable-group analysis (same BHK + size + tier) finds **Chandapura** (1 BHK, 500-1000 sqft,
-   Tier 3) priced 40.9% below its true peer group — a specific, named, statistically-grounded
-   candidate for further due diligence, not a blanket "cheap locality" claim.
-4. 1,191 of 12,742 valid listings (9.35%) are IQR outliers on price/sqft; a separate comparable-group
-   check flags 513 listings as potentially under-priced and 850 as potentially over-priced (>=30%
-   deviation from their local comparable group).
-
-Full memo with methodology and limitations: [`reports/insight_memo.pdf`](reports/insight_memo.pdf).
-
-## 11. Dashboard Preview
+## The dashboard
 
 ![Story dashboard](dashboard/screenshots/story_dashboard.png)
 
-The flagship page (`dashboard/tableau/housing_market_dashboard.twb`, tab "5 - Market Story") is one
-scrolling story, not a grid of default bar charts: a live KPI strip, a **treemap** (where premium
-localities sit), a locality **bubble chart** (size vs price, Spearman rho = 0.52), a BHK x size
-**heat map** (cells under 20 listings hidden), a **box plot** of price/sqft by tier, a log-log
-**scatter with per-tier power-law fits** (slope 1.22, R2 = 0.59), a **three-city line chart**, and a
-Top-15 locality bar. The four earlier bar-chart dashboards are kept in the same workbook.
+`dashboard/tableau/housing_market_dashboard.twb` has 5 dashboards. Four are simple, focused views: market overview, locality info, BHK/property breakdown, and value & outliers. The fifth, **"5 - Market Story,"** is one long page that walks through the whole story in order — a KPI summary, a treemap, a bubble chart, a heat map, a box plot, a scatter plot with trend lines, a three-city comparison chart, and a bar chart of the top 15 areas. One filter on that page (Locality Tier) controls every chart on it, not just one.
 
-The Locality Tier filter card on this page controls every chart on the dashboard (`Apply to Worksheets →
-All Using This Data Source`), not just the Top-15 locality chart.
+The workbook isn't published to Tableau Public yet — open `housing_market_dashboard.twb` directly in Tableau Desktop (the free Public Desktop app works) to explore it, or use the screenshot above. Static versions of the individual charts, made with Python, are in `dashboard/screenshots/`.
 
-Notes: the workbook points at local CSV paths, so re-point the data sources when opening it elsewhere;
-Tableau Public cannot keep a live database connection (see `dashboard/tableau/TABLEAU_SETUP.md`), and
-publishing to Tableau Public is still a manual step. Static chart equivalents from the Python pipeline are
-in `dashboard/screenshots/` (`notebooks/05_visualizations.py`).
-
-## 12. How to Reproduce
+## How to run this yourself
 
 ```bash
 python3 -m venv .venv && source .venv/bin/activate
-pip install pandas numpy matplotlib seaborn scipy rapidfuzz pyarrow reportlab
+pip install pandas numpy matplotlib seaborn scipy rapidfuzz pyarrow reportlab duckdb
 
 python notebooks/01_data_profiling.py        # -> reports/data_quality_report.md
 python notebooks/02_data_cleaning.py         # -> data/cleaned/*_clean.{csv,parquet}
@@ -137,10 +68,15 @@ python notebooks/06_generate_insight_memo.py # -> reports/insight_memo.{md,pdf}
 python notebooks/07_city_comparison.py       # -> dashboard/tableau/city_comparison.csv
 ```
 
-For the Databricks/Delta/Tableau path, see `notebooks/databricks_etl_notebook.py` and
-`dashboard/tableau/TABLEAU_SETUP.md`.
+To run the SQL version of the cleaning step and see it match the Python one:
 
-## 13. Repository Structure
+```bash
+python3 -c "import duckdb; print(duckdb.connect().execute(open('sql/00_data_cleaning.sql').read()).fetchdf())"
+```
+
+For the Databricks/Delta/Tableau path, see `notebooks/databricks_etl_notebook.py` and `dashboard/tableau/TABLEAU_SETUP.md`.
+
+## Repository layout
 
 ```
 housing-market-analytics/
@@ -156,16 +92,18 @@ housing-market-analytics/
 │   ├── 04_statistical_analysis.py
 │   ├── 05_visualizations.py
 │   ├── 06_generate_insight_memo.py
+│   ├── 07_city_comparison.py
 │   └── databricks_etl_notebook.py   (PySpark/Delta port for Databricks CE)
 ├── sql/
+│   ├── 00_data_cleaning.sql         (cleaning step in plain SQL, checked against the Python one)
 │   ├── 01_data_quality.sql
 │   ├── 02_locality_analysis.sql
 │   ├── 03_bhk_analysis.sql
 │   ├── 04_outlier_analysis.sql
 │   └── 05_value_analysis.sql
 ├── dashboard/
-│   ├── tableau/              (Tableau-ready CSV extracts + TABLEAU_SETUP.md)
-│   └── screenshots/          (static chart previews)
+│   ├── tableau/              (the .twb workbook + setup notes)
+│   └── screenshots/          (dashboard screenshot + static chart previews)
 ├── reports/
 │   ├── data_quality_report.md
 │   ├── locality_mapping_bengaluru.csv
@@ -176,17 +114,3 @@ housing-market-analytics/
     ├── methodology.md
     └── data_dictionary.md
 ```
-
-## 14. Limitations
-
-See `docs/methodology.md` (§ Limitations) — single historical snapshot per dataset, no age/construction
--year field in either source, Bengaluru and metropolitan datasets are schema-incompatible for a row-level
-merge, correlation is not causation, and "potentially mispriced"/"value opportunity" are statistical
-flags, not investment advice.
-
-## 15. Future Improvements
-
-- Bring in a real gazetteer of Bangalore localities to safely resolve the 139 flagged fuzzy-match
-  candidates instead of leaving them for manual review.
-- Add listing-date data (not present in either source) to move from a single snapshot to a trend.
-- Automate Tableau extract refresh via Tableau Bridge if this moves beyond a portfolio project.
