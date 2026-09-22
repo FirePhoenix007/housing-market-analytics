@@ -1,6 +1,6 @@
 # Bengaluru / Hyderabad Housing Market Analysis
 
-A project that takes messy, real housing listing data and turns it into a clean dataset, a set of findings, and a Tableau dashboard. Every number here comes from the real data — nothing is guessed or made up (see `docs/methodology.md` for how each step works).
+A project that takes messy, real housing listing data and turns it into a clean dataset, a set of findings, and a Tableau dashboard. Every number here comes from the real data - nothing is guessed or made up (see `docs/methodology.md` for how each step works).
 
 ## What this is
 
@@ -9,16 +9,16 @@ Bengaluru's housing listings are messy. The same area is spelled a dozen differe
 ## What I did
 
 1. Checked the raw data for problems first, before changing anything.
-2. Cleaned it without deleting rows — every row keeps a flag saying whether it's Valid, Suspicious, or Invalid, so nothing is silently thrown away.
+2. Cleaned it without deleting rows - every row keeps a flag saying whether it's Valid, Suspicious, or Invalid, so nothing is silently thrown away.
 3. Split areas into price tiers based on actual prices, not guesswork.
 4. Answered the main business questions by comparing each listing to *similar* listings (same size, same BHK, same tier) instead of just comparing raw prices across very different homes.
-5. Wrote the cleaning step twice — once in Python, once in plain SQL — and checked that both give the same result.
+5. Wrote the cleaning step twice - once in Python, once in plain SQL - and checked that both give the same result.
 6. Built a 5-dashboard Tableau workbook from the cleaned data.
 
 ## The data
 
-- [Bengaluru House Price Data](https://www.kaggle.com/datasets/amitabhajoy/bengaluru-house-price-data) (Kaggle) — 13,320 real listings, the main dataset
-- [Housing Prices in Metropolitan Areas of India](https://www.kaggle.com/datasets/ruchi798/housing-prices-in-metropolitan-areas-of-india) (Kaggle) — Hyderabad and Chennai, used only to compare across cities
+- [Bengaluru House Price Data](https://www.kaggle.com/datasets/amitabhajoy/bengaluru-house-price-data) (Kaggle) - 13,320 real listings, the main dataset
+- [Housing Prices in Metropolitan Areas of India](https://www.kaggle.com/datasets/ruchi798/housing-prices-in-metropolitan-areas-of-india) (Kaggle) - Hyderabad and Chennai, used only to compare across cities
 
 See `data/README.md` for exact download steps.
 
@@ -31,16 +31,16 @@ Python (pandas, NumPy, SciPy, rapidfuzz), SQL, Databricks + Delta Lake (optional
 The raw file has real problems, not textbook ones:
 
 - **Floor size** (`total_sqft`) comes as plain numbers, ranges like `"1000 - 1200"`, and units like Sq. Meter, Sq. Yards, Acres, Cents, Guntha, Grounds, and Perch. All of these get converted to one plain sqft number, with the method used recorded per row.
-- **Area names** have 1,294 raw spellings for far fewer real places. Spelling and punctuation differences are merged automatically — `"White Field"` and `"Whitefield"` become one area. Look-alike names that *might* just be typos, like `"HBR Layout"` vs `"HSR Layout"`, are **not** merged automatically — a script can't safely tell a typo from two genuinely different places (both score the same on a similarity test). Those 139 candidates are written to a report for a human to check instead of being guessed at.
-- **Nothing is deleted.** Every row keeps a `quality_flag` — Valid, Suspicious, or Invalid — and later analysis decides what to include.
+- **Area names** have 1,294 raw spellings for far fewer real places. Spelling and punctuation differences are merged automatically - `"White Field"` and `"Whitefield"` become one area. Look-alike names that *might* just be typos, like `"HBR Layout"` vs `"HSR Layout"`, are **not** merged automatically - a script can't safely tell a typo from two genuinely different places (both score the same on a similarity test). Those 139 candidates are written to a report for a human to check instead of being guessed at.
+- **Nothing is deleted.** Every row keeps a `quality_flag` - Valid, Suspicious, or Invalid - and later analysis decides what to include.
 
-This cleaning step is written twice, on purpose: once in Python (`notebooks/02_data_cleaning.py`) and once in plain SQL (`sql/00_data_cleaning.sql`). I ran both against the same raw file and checked the outputs match — same row count, same quality-flag counts, same BHK and size-bucket counts, same totals. The one small difference: in about 8 of the 1,257 areas, the two pick a different capitalization for the display name when two spellings occur equally often (a tie-break difference, not a different grouping — it doesn't change any number).
+This cleaning step is written twice, on purpose: once in Python (`notebooks/02_data_cleaning.py`) and once in plain SQL (`sql/00_data_cleaning.sql`). I ran both against the same raw file and checked the outputs match - same row count, same quality-flag counts, same BHK and size-bucket counts, same totals. The one small difference: in about 8 of the 1,257 areas, the two pick a different capitalization for the display name when two spellings occur equally often (a tie-break difference, not a different grouping - it doesn't change any number).
 
 ## What I found
 
-- **HAL 2nd Stage** is the most expensive area by a wide margin — Rs 24,167 per sqft (based on 11 listings), about 4.4x the city's median of Rs 5,482.
-- Price jumps sharply at 4 BHK. Oddly, 5+ BHK homes cost *more* per sqft but *less* in total than 4 BHK homes — so it's not a simple "more rooms = more expensive" pattern.
-- Comparing each listing only to similar homes nearby (same BHK, size, and tier) flags **Chandapura** as priced about 41% below its true peers — a specific, checkable lead, not a blanket "cheap area" claim.
+- **HAL 2nd Stage** is the most expensive area by a wide margin - Rs 24,167 per sqft (based on 11 listings), about 4.4x the city's median of Rs 5,482.
+- Price jumps sharply at 4 BHK. Oddly, 5+ BHK homes cost *more* per sqft but *less* in total than 4 BHK homes - so it's not a simple "more rooms = more expensive" pattern.
+- Comparing each listing only to similar homes nearby (same BHK, size, and tier) flags **Chandapura** as priced about 41% below its true peers - a specific, checkable lead, not a blanket "cheap area" claim.
 - About 1 in 10 listings (1,191 of 12,742 valid ones) look like statistical outliers on price per sqft. A separate check against similar homes flags 513 as possibly under-priced and 850 as possibly over-priced.
 
 Full write-up, with the reasoning behind each number: [`reports/insight_memo.pdf`](reports/insight_memo.pdf).
@@ -49,9 +49,9 @@ Full write-up, with the reasoning behind each number: [`reports/insight_memo.pdf
 
 ![Story dashboard](dashboard/screenshots/story_dashboard.png)
 
-`dashboard/tableau/housing_market_dashboard.twb` has 5 dashboards. Four are simple, focused views: market overview, locality info, BHK/property breakdown, and value & outliers. The fifth, **"5 - Market Story,"** is one long page that walks through the whole story in order — a KPI summary, a treemap, a bubble chart, a heat map, a box plot, a scatter plot with trend lines, a three-city comparison chart, and a bar chart of the top 15 areas. One filter on that page (Locality Tier) controls every chart on it, not just one.
+`dashboard/tableau/housing_market_dashboard.twb` has 5 dashboards. Four are simple, focused views: market overview, locality info, BHK/property breakdown, and value & outliers. The fifth, **"5 - Market Story,"** is one long page that walks through the whole story in order - a KPI summary, a treemap, a bubble chart, a heat map, a box plot, a scatter plot with trend lines, a three-city comparison chart, and a bar chart of the top 15 areas. One filter on that page (Locality Tier) controls every chart on it, not just one.
 
-The workbook isn't published to Tableau Public yet — open `housing_market_dashboard.twb` directly in Tableau Desktop (the free Public Desktop app works) to explore it, or use the screenshot above. Static versions of the individual charts, made with Python, are in `dashboard/screenshots/`.
+The workbook isn't published to Tableau Public yet - open `housing_market_dashboard.twb` directly in Tableau Desktop (the free Public Desktop app works) to explore it, or use the screenshot above. Static versions of the individual charts, made with Python, are in `dashboard/screenshots/`.
 
 ## How to run this yourself
 
