@@ -107,13 +107,12 @@ Full memo with methodology and limitations: [`reports/insight_memo.pdf`](reports
 
 ![Story dashboard](dashboard/screenshots/story_dashboard.png)
 
-The flagship page (`dashboard/tableau/housing_market_dashboard.twb`, tab "Dashboard 5") is one scrolling
-story, not a grid of default bar charts: a live KPI strip, a **treemap** (where premium localities sit),
-a locality **bubble chart** (size vs price, Spearman rho = 0.52), a BHK x size **heat map** (cells under
-20 listings hidden), a **box plot** of price/sqft by tier, a log-log **scatter with per-tier power-law
-fits** (slope 1.22, R2 = 0.59), a **three-city line chart**, and a Top-15 locality bar. Every chart title
-states a number that was recomputed from the data (one draft title overstated the size/price link and was
-corrected after checking). The four earlier bar-chart dashboards are kept in the same workbook.
+The flagship page (`dashboard/tableau/housing_market_dashboard.twb`, tab "5 - Market Story") is one
+scrolling story, not a grid of default bar charts: a live KPI strip, a **treemap** (where premium
+localities sit), a locality **bubble chart** (size vs price, Spearman rho = 0.52), a BHK x size
+**heat map** (cells under 20 listings hidden), a **box plot** of price/sqft by tier, a log-log
+**scatter with per-tier power-law fits** (slope 1.22, R2 = 0.59), a **three-city line chart**, and a
+Top-15 locality bar. The four earlier bar-chart dashboards are kept in the same workbook.
 
 The Locality Tier filter card on this page controls every chart on the dashboard (`Apply to Worksheets →
 All Using This Data Source`), not just the Top-15 locality chart.
